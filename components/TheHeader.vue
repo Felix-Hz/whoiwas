@@ -1,33 +1,24 @@
-<!-- <template>
-  <div>
-    <n-gradient-text type="success" class="m-5 text-2xl">
-      A ver si esta verga funciona
-    </n-gradient-text>
-  </div>
-  
-</template>
-<script>
-import { NGradientText } from "naive-ui";
-
-export default defineComponent({
-  components: {
-    NGradientText,
-  },
-});
-</script> -->
-
 <!-- Header.vue -->
+<!-- <!!!> USE NUXT-LINKS FOR NAVIGATION -->
 <template>
   <header class="flex justify-between items-center p-5">
     <div class="flex items-center">
-      <span class="text-white text-2xl font-bold"> <a href="/">F</a></span>
+      <span class="text-white text-2xl font-bold">
+        <!-- <a href="/">F</a> -->
+        <NuxtLink to="/">F</NuxtLink>
+      </span>
     </div>
     <div class="flex items-center space-x-4">
       <ul class="flex space-x-4">
         <li v-for="option in options" :key="option.id">
-          <a :href="option.link" class="text-white hover:text-gray-400">{{
-            option.label
-          }}</a>
+          <!-- <a :href="option.link" class="text-white hover:text-gray-400"> -->
+          <NuxtLink
+            :to="{ path: option.link, hash: option.hash }"
+            class="text-white hover:text-gray-400"
+          >
+            {{ option.label }}
+          </NuxtLink>
+          <!-- </a> -->
         </li>
       </ul>
     </div>
@@ -60,9 +51,9 @@ export default {
   data() {
     return {
       options: [
-        { id: 1, label: "About", link: "/about" },
-        { id: 2, label: "Projects", link: "/projects" },
-        { id: 3, label: "Contact", link: "/contact" },
+        { id: 1, label: "About", link: "/about", hash: "about" },
+        { id: 2, label: "Projects", link: "/projects", hash: "projects" },
+        { id: 3, label: "Contact", link: "/contact", hash: "contact" },
       ],
       languages: [
         { value: "en", label: "🇬🇧" },
@@ -74,7 +65,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-/* No additional scoped styles needed */
-</style>

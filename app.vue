@@ -1,9 +1,14 @@
 <template>
   <div>
     <TheHeader />
-    <NuxtLayout>
+    <!-- <NuxtLayout> -->
       <!-- NuxtPage for routing -->
-      <NuxtPage />
-    </NuxtLayout>
+      <!-- <NuxtPage />
+    </NuxtLayout> -->
+    <Landing />
+    <Components /> 
+    <About />
+    <Projects />
+    <Contact />
   </div>
 </template>

@@ -1,3 +1,3 @@
 <template>
-  <div>This is the contact page.</div>
+  <Contact />
 </template>
