@@ -1,12 +1,10 @@
 <template>
   <div>
-    <Header />
-    <Landing />
-    <!-- <NuxtWelcome /> -->
+    <!-- <TheHeader />
+    <Landing /> -->
+    <NuxtLayout>
+      <!-- NuxtPage for routing -->
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
-<style>
-/* * {
-  background-color: black;
-} */
-</style>
