@@ -1,6 +1,5 @@
 <template>
   <div>
-    <TheHeader />
     <div
       class="container flex items-center justify-center m-auto px-40 h-screen"
     >
@@ -20,7 +19,7 @@
           <a href="https://github.com"
             ><img src="github-icon.png" alt="GitHub" class="w-6 h-6"
           /></a>
-          <a href="mailto:youremail@example.com"
+          <a href="mailto:felix.hzv@gmail.com"
             ><img src="email-icon.png" alt="Email" class="w-6 h-6"
           /></a>
           <a href="https://mastodon.social"

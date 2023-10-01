@@ -1,5 +1,6 @@
 <template>
   <div>
+    <TheHeader />
     <NuxtLayout>
       <!-- NuxtPage for routing -->
       <NuxtPage />

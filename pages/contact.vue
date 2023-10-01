@@ -1,7 +1,3 @@
 <template>
-    <div>
-      <TheHeader />
-      This is the contact page.
-    </div>
-  </template>
-  
+  <div>This is the contact page.</div>
+</template>

@@ -20,8 +20,7 @@ export default defineComponent({
 <template>
   <header class="flex justify-between items-center p-5">
     <div class="flex items-center">
-      <span class="text-white text-2xl font-bold">
-        <a href="/">F</a></span>
+      <span class="text-white text-2xl font-bold"> <a href="/">F</a></span>
     </div>
     <div class="flex items-center space-x-4">
       <ul class="flex space-x-4">
@@ -66,8 +65,8 @@ export default {
         { id: 3, label: "Contact", link: "/contact" },
       ],
       languages: [
-        { value: "en", label: "English" },
-        { value: "es", label: "Español" },
+        { value: "en", label: "🇬🇧" },
+        { value: "es", label: "🇪🇸" },
         // Add more language options as needed
       ],
       selectedLanguage: "en", // Set the default language
