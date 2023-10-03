@@ -1,5 +1,7 @@
 <template>
-  <div class="container flex items-center justify-center m-auto px-40 h-screen">
+  <div
+    class="component-container container flex items-center justify-center m-auto px-40 h-screen"
+  >
     <!-- First block (60% width) -->
     <div class="w-3/5 h-full overflow-y-scroll py-40">
       <div class="font-bold text-4xl">Felix Hernandez Vieyra</div>
@@ -43,3 +45,9 @@
     </div>
   </div>
 </template>
+<style scoped>
+/* Apply styles to the root element of the component */
+.component-container {
+  height: 100vh;
+}
+</style>

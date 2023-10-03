@@ -1,5 +1,12 @@
 <template>
-  <section id="about">
-    <div>This is the about page.</div>
-  </section>
+  <div class="component-container">This is the about page.</div>
 </template>
+<style scoped>
+/* Apply styles to the root element of the component */
+.component-container {
+  height: 100vh;
+  margin: auto;
+  width: 50%;
+  color: yellow;
+}
+</style>
