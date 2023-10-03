@@ -11,14 +11,13 @@
     <div class="flex items-center space-x-4">
       <ul class="flex space-x-4">
         <li v-for="option in options" :key="option.id">
-          <!-- <a :href="option.link" class="text-white hover:text-gray-400"> -->
+          <!-- NuxtLink can also take a link as an argument  -->
           <NuxtLink
-            :to="{ path: option.link, hash: option.hash }"
+            :to="{ hash: option.hash }"
             class="text-white hover:text-gray-400"
           >
             {{ option.label }}
           </NuxtLink>
-          <!-- </a> -->
         </li>
       </ul>
     </div>
@@ -51,9 +50,9 @@ export default {
   data() {
     return {
       options: [
-        { id: 1, label: "About", link: "/about", hash: "about" },
-        { id: 2, label: "Projects", link: "/projects", hash: "projects" },
-        { id: 3, label: "Contact", link: "/contact", hash: "contact" },
+        { id: 1, label: "About", link: "/about", hash: "#about" },
+        { id: 2, label: "Projects", link: "/projects", hash: "#projects" },
+        { id: 3, label: "Contact", link: "/contact", hash: "#contact" },
       ],
       languages: [
         { value: "en", label: "🇬🇧" },
