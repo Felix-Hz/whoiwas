@@ -1,3 +1,5 @@
+<!-- When a form is submitted, add the confetti. -->
+
 <template>
   <div class="component-container">This is the contact page.</div>
 </template>

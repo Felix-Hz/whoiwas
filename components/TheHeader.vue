@@ -1,22 +1,19 @@
-<!-- Header.vue -->
-<!-- <!!!> USE NUXT-LINKS FOR NAVIGATION -->
 <template>
   <header
-    class="fixed top-0 left-0 right-0 z-50 flex justify-between items-center p-5"
+    class="fixed top-0 left-0 right-0 z-50 flex justify-between items-center px-11 py-6"
   >
     <div class="flex items-center">
-      <span class="text-white text-2xl font-bold">
-        <!-- <a href="/">F</a> -->
-        <NuxtLink to="/">F</NuxtLink>
+      <span class="text-white text-5xl font-bold hover:text-purple-400">
+        <NuxtLink to="/"><Icon name="ic:baseline-terminal" /></NuxtLink>
       </span>
     </div>
     <div class="flex items-center space-x-4">
-      <ul class="flex space-x-4">
+      <ul class="flex space-x-24">
         <li v-for="option in options" :key="option.id">
           <!-- NuxtLink can also take a link as an argument  -->
           <NuxtLink
             :to="{ hash: option.hash }"
-            class="text-white hover:text-purple-400"
+            class="text-white text-xl hover:text-purple-400"
           >
             {{ option.label }}
           </NuxtLink>
@@ -27,21 +24,32 @@
       <div class="flex items-center space-x-12">
         <!-- Add a wrapper div -->
         <a href="https://github.com/Felix-Hz" class="text-white">
-          <img src="github-icon.png" alt="GitHub" class="w-6 h-6" />
+          <Icon name="mdi:github-face" class="text-4xl" />
         </a>
-        <select
-          v-model="selectedLanguage"
-          class="text-white bg-transparent border-none"
-        >
-          <option
-            v-for="language in languages"
-            :key="language.value"
-            :value="language.value"
-            class="text-gray-300"
+        <div class="relative">
+          <!-- Translate icon as a trigger for language selection -->
+          <div class="cursor-pointer">
+            <Icon name="ic:twotone-translate" class="text-white text-4xl" />
+            <span
+              class="absolute top-0 right-0 bg-white rounded-full px-1 text-xs"
+              >{{ selectedLanguage }}</span
+            >
+          </div>
+          <select
+            v-model="selectedLanguage"
+            @change="changeLanguage"
+            class="text-white bg-transparent border-none opacity-0 absolute top-0 left-0 h-full w-full cursor-pointer"
           >
-            {{ language.label }}
-          </option>
-        </select>
+            <option
+              v-for="language in languages"
+              :key="language.value"
+              :value="language.value"
+              class="text-gray-300"
+            >
+              {{ language.label }}
+            </option>
+          </select>
+        </div>
       </div>
     </div>
   </header>
@@ -57,12 +65,40 @@ export default {
         { id: 3, label: "Contact", link: "/contact", hash: "#contact" },
       ],
       languages: [
-        { value: "en", label: "🇬🇧" },
-        { value: "es", label: "🇪🇸" },
-        // Add more language options as needed
+        { value: "🇬🇧", label: "en" },
+        { value: "🇪🇸", label: "es" },
       ],
-      selectedLanguage: "en", // Set the default language
+      selectedLanguage: "🇬🇧",
     };
+  },
+
+  methods: {
+    changeLanguage() {
+      // Implement logic when language changes.
+    },
   },
 };
 </script>
+<style scoped>
+/* Additional styling to adjust the dropdown appearance */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+select:focus {
+  outline: none;
+}
+
+/* Style the dropdown icon */
+select::-ms-expand {
+  display: none;
+}
+
+/* Position the language flag on top right of the translate icon */
+.absolute.top-0.right-0 {
+  /* Adjust this position as needed */
+  transform: translate(50%, -50%);
+}
+</style>
