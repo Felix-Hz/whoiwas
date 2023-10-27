@@ -5,7 +5,7 @@
     class="fixed top-0 left-0 right-0 z-50 flex justify-between items-center p-5"
   >
     <div class="flex items-center">
-      <span class="text-white text-2xl font-bold">
+      <span class="text-white text-2xl font-bold hover:text-purple-400">
         <!-- <a href="/">F</a> -->
         <NuxtLink to="/">F</NuxtLink>
       </span>
@@ -27,7 +27,7 @@
       <div class="flex items-center space-x-12">
         <!-- Add a wrapper div -->
         <a href="https://github.com/Felix-Hz" class="text-white">
-          <img src="github-icon.png" alt="GitHub" class="w-6 h-6" />
+          <img src="github-icon.png" alt="GitHub" class="w-6 h-6 hover:text-purple-400" />
         </a>
         <select
           v-model="selectedLanguage"
