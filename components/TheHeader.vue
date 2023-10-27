@@ -1,10 +1,9 @@
 <template>
   <header
-    class="fixed top-0 left-0 right-0 z-50 flex justify-between items-center p-5"
+    class="fixed top-0 left-0 right-0 z-50 flex justify-between items-center px-11 py-6"
   >
     <div class="flex items-center">
       <span class="text-white text-5xl font-bold hover:text-purple-400">
-        <!-- <a href="/">F</a> -->
         <NuxtLink to="/"><Icon name="ic:baseline-terminal" /></NuxtLink>
       </span>
     </div>
