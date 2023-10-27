@@ -15,18 +15,16 @@
       </div>
       <!-- List of icons -->
       <div class="flex space-x-12">
-        <a href="https://linkedni.com"
-          ><img src="linkedin-icon.png" alt="LinkedIn" class="w-6 h-6 text-xl"
-        /></a>
-        <a href="https://github.com"
-          ><img src="github-icon.png" alt="GitHub" class="w-6 h-6 text-xl"
-        /></a>
+        <a href="https://linkedni.com">
+          <Icon name="uil:linkedin" class="text-4xl"/>
+        </a>
+        <a href="https://github.com">
+          <Icon name="uil:github" class="text-4xl" />
+        </a>
         <a href="mailto:felix.hzv@gmail.com"
-          ><img src="email-icon.png" alt="Email" class="w-6 h-6 text-xl"
+          ><Icon name="uil:envelope-alt" class="text-4xl"
         /></a>
-        <a href="https://mastodon.social"
-          ><img src="mastodon-icon.png" alt="Mastodon" class="w-6 h-6 text-xl"
-        /></a>
+        <a href="https://mastodon.social"> <Icon name="mdi:mastodon" class="text-4xl"/></a>
       </div>
     </div>
 
