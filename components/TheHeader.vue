@@ -1,7 +1,7 @@
 <!-- Header.vue -->
 <!-- <!!!> USE NUXT-LINKS FOR NAVIGATION -->
 <template>
-  <header class="flex justify-between items-center p-5">
+  <header class="fixed top-0 left-0 right-0 z-50 flex justify-between items-center p-5">
     <div class="flex items-center">
       <span class="text-white text-2xl font-bold">
         <!-- <a href="/">F</a> -->
