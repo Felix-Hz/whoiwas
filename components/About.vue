@@ -8,20 +8,22 @@
         <img
           src="~/public/media/avatar.png"
           alt="Avatar"
-          class="h-full w-full object-cover"
+          class="h-full w-full object-cover hover:bg-purple"
         />
       </div>
 
       <!-- Name -->
-      <div class="text-center font-bold text-6xl mb-6">
-        Felix Hernandez Vieyra
+      <div class="flex justify-end">
+        <div class="text-center font-bold text-6xl mb-6">
+          Felix Hernandez Vieyra
+        </div>
       </div>
 
       <!-- Description -->
       <div class="text-center text-2xl mb-6">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco
+        tempor incididunt ut labore et dolore magna aliqua. Download my cv
+        <a href="/" class="hover:text-purple-400">here</a>.
       </div>
 
       <!-- List of icons -->
@@ -35,7 +37,7 @@
         <a href="mailto:felix.hzv@gmail.com">
           <Icon name="uil:envelope-alt" class="text-5xl" />
         </a>
-        <a href="https://mastodon.social">
+        <a href="https://mastodon.social/@red_rogue">
           <Icon name="mdi:mastodon" class="text-5xl" />
         </a>
       </div>
@@ -44,7 +46,6 @@
 </template>
 
 <style scoped>
-/* Apply styles to the root element of the component */
 .component-container {
   width: 100%;
   height: 100vh;

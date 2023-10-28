@@ -2,6 +2,6 @@
   in the index, and navigate the scroll with it. -->
 <template>
   <About id="about" />
-  <Projects id="projects" />
+  <!-- <Projects id="projects" /> -->
   <Contact id="contact" />
 </template>

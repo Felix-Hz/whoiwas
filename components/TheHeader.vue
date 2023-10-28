@@ -27,7 +27,6 @@
           <Icon name="mdi:github-face" class="text-4xl" />
         </a>
         <div class="relative">
-          <!-- Translate icon as a trigger for language selection -->
           <div class="cursor-pointer">
             <Icon name="ic:twotone-translate" class="text-white text-4xl" />
             <span
@@ -38,7 +37,7 @@
           <select
             v-model="selectedLanguage"
             @change="changeLanguage"
-            class="text-white bg-transparent border-none opacity-0 absolute top-0 left-0 h-full w-full cursor-pointer"
+            class="text-white bg-transparent border-none opacity-0 absolute top-4 right-2 h-full w-full cursor-pointer"
           >
             <option
               v-for="language in languages"
@@ -61,7 +60,7 @@ export default {
     return {
       options: [
         { id: 1, label: "About", link: "/about", hash: "#about" },
-        { id: 2, label: "Projects", link: "/projects", hash: "#projects" },
+        // { id: 2, label: "Projects", link: "/projects", hash: "#projects" },
         { id: 3, label: "Contact", link: "/contact", hash: "#contact" },
       ],
       languages: [
@@ -80,25 +79,12 @@ export default {
 };
 </script>
 <style scoped>
-/* Additional styling to adjust the dropdown appearance */
-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-
-select:focus {
-  outline: none;
-}
-
-/* Style the dropdown icon */
 select::-ms-expand {
   display: none;
 }
 
-/* Position the language flag on top right of the translate icon */
 .absolute.top-0.right-0 {
-  /* Adjust this position as needed */
+  /* Positioning the flag. */
   transform: translate(50%, -50%);
 }
 </style>
