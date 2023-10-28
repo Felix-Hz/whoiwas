@@ -7,10 +7,10 @@
         <NuxtLink to="/"><Icon name="ic:baseline-terminal" /></NuxtLink>
       </span>
     </div>
-    <div class="flex items-center space-x-4">
+    <!-- <div class="flex items-center space-x-4">
       <ul class="flex space-x-24">
         <li v-for="option in options" :key="option.id">
-          <!-- NuxtLink can also take a link as an argument  -->
+          NuxtLink can also take a link as an argument 
           <NuxtLink
             :to="{ hash: option.hash }"
             class="text-white text-xl hover:text-purple-400"
@@ -19,7 +19,7 @@
           </NuxtLink>
         </li>
       </ul>
-    </div>
+    </div> -->
     <div class="flex items-center">
       <div class="flex items-center space-x-12">
         <!-- Add a wrapper div -->
