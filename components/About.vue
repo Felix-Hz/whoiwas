@@ -14,15 +14,16 @@
 
       <!-- Name -->
       <div class="flex justify-end">
-        <div class="text-center font-bold text-6xl mb-6">
+        <div
+          class="text-center text-5xl animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black m-4"
+        >
           Felix Hernandez Vieyra
         </div>
       </div>
 
       <!-- Description -->
       <div class="text-center text-2xl mb-6">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Download my cv
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Download my cv
         <a href="/" class="hover:text-purple-400">here</a>.
       </div>
 
