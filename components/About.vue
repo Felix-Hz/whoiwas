@@ -4,7 +4,7 @@
   >
     <div class="w-1/2 flex flex-col items-center justify-center">
       <!-- Avatar -->
-      <div class="rounded-full overflow-hidden h-40 w-40 mb-6 text-left" >
+      <div class="rounded-full overflow-hidden h-40 w-40 mb-6 text-left">
         <img
           src="~/public/media/avatar.png"
           alt="Avatar"
@@ -26,7 +26,7 @@
 
       <!-- List of icons -->
       <div class="flex justify-center space-x-12">
-        <a href="https://linkedni.com">
+        <a href="https://linkedin.com">
           <Icon name="uil:linkedin" class="text-5xl" />
         </a>
         <a href="https://github.com">
