@@ -7,7 +7,7 @@
         <h2
           class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white"
         >
-          Let's Chat 👋
+          Let's Chat <span class="wave-animation"> 👋</span>
         </h2>
         <p
           class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl"
@@ -69,11 +69,51 @@
   </div>
 </template>
 <style scoped>
-/* Apply styles to the root element of the component */
 .component-container {
   height: 100vh;
   margin: auto;
   width: 50%;
   color: red;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(12.5deg);
+  }
+  20% {
+    transform: rotate(25deg);
+  }
+  30% {
+    transform: rotate(50deg);
+  }
+  40% {
+    transform: rotate(25deg);
+  }
+  50% {
+    transform: rotate(12.5deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  70% {
+    transform: rotate(-12.5deg);
+  }
+  80% {
+    transform: rotate(-25deg);
+  }
+  90% {
+    transform: rotate(-50deg);
+  }
+  100% {
+    transform: rotate(-25deg);
+  }
+}
+
+.wave-animation {
+  display: inline-block;
+  animation: wave 2s infinite;
 }
 </style>
