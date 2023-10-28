@@ -54,7 +54,7 @@
               id="message"
               rows="6"
               class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:border-yellow-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-purple-500"
-              placeholder="Leave a comment..."
+              placeholder="I'd love to know more about it. Keystroke, keystroke, keystroke..."
             ></textarea>
           </div>
           <button
