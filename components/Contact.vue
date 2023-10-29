@@ -84,11 +84,13 @@
   </div>
 </template>
 <script>
-window.onbeforeunload = () => {
-  for (const form of document.getElementsByTagName("form")) {
-    form.reset();
-  }
-};
+if (typeof window !== "undefined") {
+  window.onbeforeunload = () => {
+    for (const form of document.getElementsByTagName("form")) {
+      form.reset();
+    }
+  };
+}
 </script>
 <style scoped>
 .component-container {
