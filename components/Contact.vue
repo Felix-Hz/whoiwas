@@ -2,7 +2,7 @@
 
 <template>
   <div class="component-container">
-    <section class="bg-white dark:bg-gray-900">
+    <section>
       <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
         <h2
           class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white"
@@ -59,9 +59,14 @@
           </div>
           <button
             type="submit"
-            class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-purple-800 sm:w-fit hover:bg-purple-700 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 self-end"
+            class="group relative py-3 px-5 text-sm font-medium text-center text-white rounded-lg border border-gray-300 transition-colors hover:bg-gray-500"
           >
-            Send message
+            Start the conversation
+
+            <Icon
+              name="ph:telegram-logo-thin"
+              class="group-hover:bg-gray-500 text-2xl transition-colors absolute right-5 top-1/2 -translate-y-1/2"
+            />
           </button>
         </form>
       </div>
