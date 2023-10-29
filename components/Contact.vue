@@ -15,8 +15,14 @@
           Whether you have me in mind for a job opportunity, have stumbled upon
           a 🪲 or want to leave some feedback, I'm all ears.
         </p>
-        <form action="/" class="space-y-8 flex flex-col">
+        <form
+          action="https://formspree.io/f/xeqbnwlo"
+          method="POST"
+          class="space-y-8 flex flex-col"
+        >
           <div>
+            <!-- The _gotcha input is used as a honeypot for spam filtering  -->
+            <input type="text" name="_gotcha" style="display: none" />
             <label
               for="email"
               class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
@@ -25,6 +31,7 @@
             <input
               type="email"
               id="email"
+              name="email"
               class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
               placeholder="james.hetfield@metallica.com"
               required
@@ -39,6 +46,7 @@
             <input
               type="text"
               id="subject"
+              name="subject"
               class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
               placeholder="What's all of this about?"
               required
@@ -52,6 +60,7 @@
             >
             <textarea
               id="message"
+              name="message"
               rows="6"
               class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:border-yellow-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-purple-500"
               placeholder="I'd love to know more about it. Keystroke, keystroke, keystroke..."
@@ -74,6 +83,13 @@
     <TheFooter />
   </div>
 </template>
+<script>
+window.onbeforeunload = () => {
+  for (const form of document.getElementsByTagName("form")) {
+    form.reset();
+  }
+};
+</script>
 <style scoped>
 .component-container {
   height: 80vh;
