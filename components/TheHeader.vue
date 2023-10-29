@@ -1,9 +1,9 @@
 <template>
   <header
-    class="fixed top-0 left-0 right-0 z-50 flex justify-between items-center px-11 py-6"
+    class="fixed top-0 left-0 right-0 z-50 flex justify-between items-center px-11 py-6 bg-opacity-70 bg-black"
   >
     <div class="flex items-center">
-      <span class="text-white text-5xl font-bold hover:text-purple-400">
+      <span class="text-white text-5xl font-bold">
         <NuxtLink :to="{ hash: options[0].hash }"
           ><Icon name="ic:baseline-terminal"
         /></NuxtLink>
@@ -84,7 +84,6 @@ export default {
 select::-ms-expand {
   display: none;
 }
-
 .absolute.top-0.right-0 {
   /* Positioning the flag. */
   transform: translate(50%, -50%);
