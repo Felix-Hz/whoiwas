@@ -75,7 +75,7 @@
 </template>
 <style scoped>
 .component-container {
-  height: 100vh;
+  height: 80vh;
   margin: auto;
   width: 50%;
   color: red;
