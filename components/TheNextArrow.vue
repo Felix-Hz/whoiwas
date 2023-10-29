@@ -1,17 +1,42 @@
 <template>
-  <div>Hola</div>
+  <div>
+    <NuxtLink
+      :to="{
+        hash: pages[2].hash,
+      }"
+      class="text-white text-xl hover:text-purple-400"
+    >
+      <Icon
+        name="material-symbols:keyboard-double-arrow-down-rounded"
+        class="text-5xl mt-40 opacity-30 animate-floatUpDown"
+    /></NuxtLink>
+  </div>
 </template>
 <script>
 export default {
   data() {
     return {
-        // store the data in the store with Pinia
       pages: [
-        { id: 0, label: "Index", link: "/about" },
-        { id: 1, label: "About", link: "/about" },
-        { id: 2, label: "Projects", link: "/projects" },
-        { id: 3, label: "Contact", link: "/contact" },
+        { id: 1, label: "About", link: "/about", hash: "#about" },
+        { id: 2, label: "Projects", link: "/projects", hash: "#projects" },
+        { id: 3, label: "Contact", link: "/contact", hash: "#contact" },
       ],
+    };
   },
-}}
+};
 </script>
+<style>
+@keyframes floatUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+}
+
+.animate-floatUpDown {
+  animation: floatUpDown 4s infinite;
+}
+</style>

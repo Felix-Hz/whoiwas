@@ -4,7 +4,9 @@
   >
     <div class="flex items-center">
       <span class="text-white text-5xl font-bold hover:text-purple-400">
-        <NuxtLink to="/"><Icon name="ic:baseline-terminal" /></NuxtLink>
+        <NuxtLink :to="{ hash: options[0].hash }"
+          ><Icon name="ic:baseline-terminal"
+        /></NuxtLink>
       </span>
     </div>
     <!-- <div class="flex items-center space-x-4">

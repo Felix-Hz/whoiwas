@@ -30,18 +30,19 @@
       <!-- List of icons -->
       <div class="flex justify-center space-x-12">
         <a href="https://linkedin.com">
-          <Icon name="uil:linkedin" class="text-5xl" />
+          <Icon name="uil:linkedin" class="text-3xl" />
         </a>
         <a href="https://github.com">
-          <Icon name="uil:github" class="text-5xl" />
+          <Icon name="uil:github" class="text-3xl" />
         </a>
         <a href="mailto:felix.hzv@gmail.com">
-          <Icon name="uil:envelope-alt" class="text-5xl" />
+          <Icon name="uil:envelope-alt" class="text-3xl" />
         </a>
         <a href="https://mastodon.social/@red_rogue">
-          <Icon name="mdi:mastodon" class="text-5xl" />
+          <Icon name="mdi:mastodon" class="text-3xl" />
         </a>
       </div>
+      <TheNextArrow />
     </div>
   </div>
 </template>
