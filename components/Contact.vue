@@ -71,6 +71,7 @@
         </form>
       </div>
     </section>
+    <TheFooter />
   </div>
 </template>
 <style scoped>

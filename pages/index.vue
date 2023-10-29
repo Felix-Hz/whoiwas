@@ -4,5 +4,4 @@
   <About id="about" />
   <!-- <Projects id="projects" /> -->
   <Contact id="contact" />
-  <TheFooter />
 </template>
