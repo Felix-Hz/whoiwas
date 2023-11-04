@@ -1,9 +1,9 @@
 <!-- When a form is submitted, add the confetti. -->
 
 <template>
-  <div class="h-80vh mx-auto w-3/4 text-red">
+  <div class="h-80 mx-auto w-5/6 text-red">
     <section>
-      <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+      <div class="pt-12 pb-1 px-4 mx-auto max-w-screen-md">
         <h2
           class="mb-4 text-4xl p-0 tracking-tight font-extrabold text-center text-gray-900 dark:text-white"
         >
@@ -93,13 +93,6 @@ if (typeof window !== "undefined") {
 }
 </script>
 <style scoped>
-/* .component-container {
-  height: 80vh;
-  margin: auto;
-  width: 75%;
-  color: red;
-} */
-
 @keyframes wave {
   0% {
     transform: rotate(0deg);

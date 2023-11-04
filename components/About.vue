@@ -1,10 +1,10 @@
 <template>
   <div
-    class="component-container container flex items-center justify-center m-auto selection:h-screen "
+    class="component-container h-screen container flex items-center justify-center m-auto selection:h-screen "
   >
     <div class="w-1/2 flex flex-col items-center justify-center">
       <!-- Avatar -->
-      <div class="rounded-full overflow-hidden h-40 w-40 mb-6 mt-8 text-left">
+      <div class="rounded-full overflow-hidden h-40 w-40 mb-6 mt-8 text-left md:mt-0">
         <img
           src="~/public/media/avatar.png"
           alt="Avatar"
@@ -50,6 +50,6 @@
 <style scoped>
 .component-container {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
 }
 </style>
