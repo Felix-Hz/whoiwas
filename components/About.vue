@@ -1,10 +1,12 @@
 <template>
   <div
-    class="component-container h-screen container flex items-center justify-center m-auto selection:h-screen "
+    class="component-container h-screen container flex items-center justify-center m-auto selection:h-screen"
   >
-    <div class="w-1/2 flex flex-col items-center justify-center">
+    <div class="w-1/2 flex flex-col items-center justify-center lg:gap-1">
       <!-- Avatar -->
-      <div class="rounded-full overflow-hidden h-40 w-40 mb-6 mt-8 text-left md:mt-0">
+      <div
+        class="rounded-full overflow-hidden h-40 w-40 mb-6 mt-8 text-left md:mt-0"
+      >
         <img
           src="~/public/media/avatar.png"
           alt="Avatar"
@@ -15,34 +17,34 @@
       <!-- Name -->
       <div class="flex justify-end p-6">
         <div
-          class="text-center text-5xl animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black m-4"
+          class="text-center text-5xl lg:text-6xl animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black m-4"
         >
           Felix Hernandez Vieyra
         </div>
       </div>
 
       <!-- Description -->
-      <div class="text-center text-2xl mb-6">
+      <div class="text-center text-2xl lg:text-3xl mb-6">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Download my cv
         <a href="/" class="hover:text-purple-400">here</a>.
       </div>
 
       <!-- List of icons -->
-      <div class="flex justify-center space-x-12">
+      <div class="flex justify-center space-x-10 lg:space-x-20">
         <a href="https://linkedin.com">
-          <Icon name="uil:linkedin" class="text-3xl" />
+          <Icon name="uil:linkedin" class="text-4xl lg:text-5xl" />
         </a>
         <a href="https://github.com">
-          <Icon name="uil:github" class="text-3xl" />
+          <Icon name="uil:github" class="text-4xl lg:text-5xl" />
         </a>
         <a href="mailto:felix.hzv@gmail.com">
-          <Icon name="uil:envelope-alt" class="text-3xl" />
+          <Icon name="uil:envelope-alt" class="text-4xl lg:text-5xl" />
         </a>
         <a href="https://mastodon.social/@red_rogue">
-          <Icon name="mdi:mastodon" class="text-3xl" />
+          <Icon name="mdi:mastodon" class="text-4xl lg:text-5xl" />
         </a>
       </div>
-      <TheNextArrow class="hidden"/>
+      <TheNextArrow class="hidden lg:inline" />
     </div>
   </div>
 </template>
