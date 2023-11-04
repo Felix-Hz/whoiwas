@@ -1,19 +1,19 @@
 <template>
   <div
-    class="component-container container flex items-center justify-center m-auto selection:h-screen"
+    class="component-container container flex items-center justify-center m-auto selection:h-screen "
   >
     <div class="w-1/2 flex flex-col items-center justify-center">
       <!-- Avatar -->
-      <div class="rounded-full overflow-hidden h-40 w-40 mb-6 text-left">
+      <div class="rounded-full overflow-hidden h-40 w-40 mb-6 mt-8 text-left">
         <img
           src="~/public/media/avatar.png"
           alt="Avatar"
-          class="h-full w-full object-cover hover:bg-purple"
+          class="h-full w-full object-cover"
         />
       </div>
 
       <!-- Name -->
-      <div class="flex justify-end">
+      <div class="flex justify-end p-6">
         <div
           class="text-center text-5xl animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black m-4"
         >
@@ -42,7 +42,7 @@
           <Icon name="mdi:mastodon" class="text-3xl" />
         </a>
       </div>
-      <TheNextArrow />
+      <TheNextArrow class="hidden"/>
     </div>
   </div>
 </template>
