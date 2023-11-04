@@ -1,11 +1,11 @@
 <!-- When a form is submitted, add the confetti. -->
 
 <template>
-  <div class="component-container">
+  <div class="h-80vh mx-auto w-3/4 text-red">
     <section>
       <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
         <h2
-          class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white"
+          class="mb-4 text-4xl p-0 tracking-tight font-extrabold text-center text-gray-900 dark:text-white"
         >
           Let's Chat <span class="wave-animation"> 👋</span>
         </h2>
@@ -93,12 +93,12 @@ if (typeof window !== "undefined") {
 }
 </script>
 <style scoped>
-.component-container {
+/* .component-container {
   height: 80vh;
   margin: auto;
-  width: 50%;
+  width: 75%;
   color: red;
-}
+} */
 
 @keyframes wave {
   0% {
