@@ -1,20 +1,24 @@
 <!-- When a form is submitted, add the confetti. -->
 
 <template>
-  <div class="h-80 mx-auto w-5/6 text-red">
-    <section>
-      <div class="pt-12 pb-1 px-4 mx-auto max-w-screen-md">
+  <div class="h-screen mx-auto w-5/6 text-red container">
+    <section
+      class="pt-4 px-4 mx-auto max-w-screen-md lg:pb-2 lg:pt-24 flex flex-col"
+    >
+      <div class="lg:pt-8">
         <h2
-          class="mb-4 text-4xl p-0 tracking-tight font-extrabold text-center text-gray-900 dark:text-white"
+          class="text-5xl p-0 mb-4 tracking-tight font-extrabold text-center text-gray-900 dark:text-white"
         >
           Let's Chat <span class="wave-animation"> 👋</span>
         </h2>
         <p
-          class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl"
+          class="mb-8 text-md lg:text-2xl lg:mb-8 font-light text-center text-gray-500 dark:text-gray-400"
         >
           Whether you have me in mind for a job opportunity, have stumbled upon
           a 🪲 or want to leave some feedback, I'm all ears.
         </p>
+      </div>
+      <div class="mb-8 lg:mb-12">
         <form
           action="https://formspree.io/f/xeqbnwlo"
           method="POST"
@@ -62,13 +66,13 @@
               id="message"
               name="message"
               rows="6"
-              class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:border-yellow-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-purple-500"
+              class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:border-yellow-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-purple-500" 
               placeholder="I'd love to know more about it. Keystroke, keystroke, keystroke..."
             ></textarea>
           </div>
           <button
             type="submit"
-            class="group relative py-3 px-5 text-sm font-medium text-center text-white rounded-lg border border-gray-300 transition-colors hover:bg-gray-500"
+            class="group relative py-3 px-5 text-sm font-medium text-center text-white rounded-lg border border-gray-300 transition-colors hover:bg-gray-500 lg:mb-4"
           >
             Start the conversation
 
@@ -78,9 +82,9 @@
             />
           </button>
         </form>
-      </div>
+      </div >
+      <div><TheFooter /></div>
     </section>
-    <TheFooter />
   </div>
 </template>
 <script>
