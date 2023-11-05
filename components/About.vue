@@ -3,7 +3,7 @@
     class="component-container h-screen container flex items-center justify-center m-auto selection:h-screen"
   >
     <div
-      class="xs:gap-4 w-1/2 flex flex-col items-center justify-center lg:gap-1"
+      class="xs:gap-4 w-3/4 flex flex-col items-center justify-center lg:gap-1"
     >
       <!-- Avatar -->
       <div
@@ -19,7 +19,7 @@
       <!-- Name -->
       <div class="flex justify-end p-6">
         <div
-          class="xs:pt-1 text-center text-5xl lg:text-6xl animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black m-4"
+          class="xs:pt-1 text-center text-5xl lg:text-7xl animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black m-4"
         >
           Felix Hernandez Vieyra
         </div>
@@ -27,8 +27,8 @@
 
       <!-- Description -->
       <div class="xs:hidden text-center text-2xl lg:text-3xl mb-6">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Download my cv
-        <a href="/" class="hover:text-purple-400">here</a>.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
       </div>
 
       <!-- List of icons -->
@@ -40,13 +40,13 @@
           <Icon name="uil:github" class="text-4xl lg:text-5xl" />
         </a>
         <a href="mailto:felix.hzv@gmail.com">
-          <Icon name="uil:envelope-alt" class="text-4xl lg:text-5xl" />
+          <Icon name="material-symbols:mail" class="text-4xl lg:text-5xl" />
+        </a>
+        <a href="/">
+          <Icon name="academicons:cv-square" class="text-4xl" />
         </a>
         <a href="https://mastodon.social/@red_rogue" class="xs:hidden">
           <Icon name="mdi:mastodon" class="text-4xl lg:text-5xl" />
-        </a>
-        <a href="/" class="sm:hidden md:hidden lg:hidden">
-          <Icon name="academicons:cv-square" class="text-4xl" />
         </a>
       </div>
       <TheNextArrow class="hidden lg:inline" />
