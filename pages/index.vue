@@ -16,31 +16,6 @@
 <script setup lang="ts">
 import type { Container } from "tsparticles-engine";
 
-// const options = {
-//   fullScreen: {
-//     enable: true,
-//     zIndex: -1,
-//   },
-//   background: {
-//     color: { value: "#000000" },
-//   },
-//   particles: {
-//     opacity: {
-//       value: 0.05,
-//     },
-//     links: {
-//       enable: true,
-//       opacity: 0.2,
-//     },
-//     move: {
-//       enable: true,
-//     },
-//     number: {
-//       value: 350,
-//     },
-//   },
-// };
-
 const options = {
   fullScreen: {
     enable: true,
@@ -59,14 +34,14 @@ const options = {
     },
     move: {
       enable: true,
-      speed: 1, 
+      speed: 1,
     },
     number: {
-      value: 100, 
+      value: 50,
     },
     line_linked: {
       enable: true,
-      distance: 100, 
+      distance: 100,
       opacity: 0.3,
     },
   },
