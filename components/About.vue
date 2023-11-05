@@ -5,7 +5,7 @@
     <div class="w-1/2 flex flex-col items-center justify-center lg:gap-1">
       <!-- Avatar -->
       <div
-        class="rounded-full overflow-hidden h-40 w-40 mb-6 mt-8 text-left md:mt-0"
+        class="rounded-full overflow-hidden h-40 w-40 mb-6 mt-8 text-left md:mt-0 "
       >
         <img
           src="~/public/media/avatar.png"
