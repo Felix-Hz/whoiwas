@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     },
   },
   particles: {
-    mode: "slim", // 'full' | 'slim' | 'basic' | 'custom'
-    lazy: false,
+    mode: "slim",
+    lazy: true,
   },
 });
