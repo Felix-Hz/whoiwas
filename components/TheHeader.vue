@@ -1,6 +1,6 @@
 <template>
   <header
-    class="fixed top-0 left-0 right-0 z-50 flex justify-between items-center px-11 py-4 lg:bg-opacity-70 bg-black"
+    class="fixed top-0 left-0 right-0 z-50 flex justify-between items-center px-11 py-4 bg-opacity-50 bg-black"
   >
     <div class="flex items-center">
       <span class="text-white text-5xl font-bold">
