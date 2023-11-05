@@ -8,8 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: content-box;
-  touch-action: none;
-  overflow: hidden;
+  touch-action: manipulation;
   -ms-overflow-style: none; /* Internet Explorer 10+ */
   scrollbar-width: none; /* Firefox */
 }
