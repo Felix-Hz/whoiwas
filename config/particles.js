@@ -22,17 +22,18 @@ const options = {
   },
   detectRetina: true,
   duration: 0,
-  fpsLimit: 60,
+  // Fix FPS for performance issues.
+  fpsLimit: 30,
   interactivity: {
     detectsOn: "window",
     events: {
       onClick: {
         enable: true,
-        mode: "push",
+        mode: "grab",
       },
       onHover: {
         enable: true,
-        mode: "grab",
+        mode: "repulse",
         parallax: {
           enable: true,
           force: 5,
@@ -372,7 +373,7 @@ const options = {
         options: {},
       },
       outModes: {
-        default: "out",
+        default: "bounce",
         // bottom: "bounce",
         // left: "bounce",
         // right: "bounce",
@@ -405,7 +406,7 @@ const options = {
       },
       limit: 0,
       // Amount of particles.
-      value: 7.5,
+      value: 10,
     },
     opacity: {
       random: {
