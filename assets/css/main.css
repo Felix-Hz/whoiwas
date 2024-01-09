@@ -2,8 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+      COLOR PALLETTE
+*/
+:root {
+  --very-dark: #1c2127;
+  --dark: #24282e;
+  --dark-gray: #636d7b;
+  --ligh-gray: #a8b3be;
+  --green: #377b3f;
+  --dark-green: #36483e;
+  --brown: #71653f;
+  --dark-brown: #48423c;
+}
+
 * {
   color: white;
+  background-color: var(--dark);
   margin: 0;
   padding: 0;
   box-sizing: content-box;
@@ -18,18 +33,4 @@ html {
 
 *::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
-}
-
-/*
-      COLOR PALLETTE
-*/
-:root {
-  --very-dark: #24282e;
-  --dark: #1c2127;
-  --dark-gray: #636d7b;
-  --ligh-gray: #a8b3be;
-  --green: #377b3f;
-  --dark-green: #36483e;
-  --brown: #71653f;
-  --dark-brown: #48423c;
 }

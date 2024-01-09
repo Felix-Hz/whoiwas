@@ -1,7 +1,8 @@
 <template>
   <header
-    class="fixed top-0 left-0 right-0 z-50 flex justify-between items-center px-11 py-4 bg-opacity-50 bg-black"
+    class="fixed top-0 left-0 right-0 z-50 flex justify-between items-center px-11 py-4 bg-opacity-50 bg-very-dark"
   >
+    <!-- bg-var(--very-dark) -->
     <div class="flex items-center">
       <span class="text-white text-5xl font-bold">
         <NuxtLink :to="{ hash: options[0].hash }"
