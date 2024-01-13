@@ -1,18 +1,20 @@
 <template>
-  <About id="about" />
+  <TheHeader @headerHeightChanged="updateHeaderHeight" />
+  <About :headerHeight="headerHeight" id="about" />
   <Contact id="contact" />
-  <NuxtParticles
-    id="tsparticles"
-    :options="particleOptions"
-    @load="onLoad"
-  ></NuxtParticles>
 </template>
 
-<script setup lang="ts">
-import type { Container } from "tsparticles-engine";
-import particleOptions from "@/config/particles.js";
-
-const onLoad = (container: Container) => {
-  setTimeout(() => container.play(), 2000);
+<script>
+export default {
+  data() {
+    return {
+      headerHeight: 0,
+    };
+  },
+  methods: {
+    updateHeaderHeight(height) {
+      this.headerHeight = height;
+    },
+  },
 };
 </script>

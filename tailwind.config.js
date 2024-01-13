@@ -1,3 +1,5 @@
+// tailwind.config.js
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -9,11 +11,11 @@ export default {
   ],
   theme: {
     screens: {
-      xs: { max: "575px" }, // Mobile (iPhone 3 - iPhone XS Max).
-      sm: { min: "576px", max: "897px" }, // Mobile (matches max: iPhone 11 Pro Max landscape @ 896px).
-      md: { min: "898px", max: "1199px" }, // Tablet (matches max: iPad Pro @ 1112px).
-      lg: { min: "1200px" }, // Desktop smallest.
-      xl: { min: "1259px" }, // Desktop wide.
+      xs: { max: "575px" },
+      sm: { min: "576px", max: "897px" },
+      md: { min: "898px", max: "1199px" },
+      lg: { min: "1200px" },
+      xl: { min: "1259px" },
     },
     extend: {
       animation: {
@@ -30,6 +32,16 @@ export default {
             "background-position": "right center",
           },
         },
+      },
+      colors: {
+        "very-dark": "#1c2127",
+        dark: "#24282e",
+        "dark-gray": "#636d7b",
+        "light-gray": "#a8b3be",
+        green: "#377b3f",
+        "dark-green": "#36483e",
+        brown: "#71653f",
+        "dark-brown": "#48423c",
       },
     },
   },

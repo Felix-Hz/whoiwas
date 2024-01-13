@@ -1,8 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
 export default defineNuxtConfig({
-  // devtools: { enabled: true },
-  modules: ["nuxt-icon", "nuxt-particles"],
+  devtools: { enabled: false },
+  modules: ["nuxt-icon"],
   // Tailwind config
   css: ["~/assets/css/main.css"],
   postcss: {
@@ -10,9 +10,5 @@ export default defineNuxtConfig({
       tailwindcss: {},
       autoprefixer: {},
     },
-  },
-  particles: {
-    mode: "slim",
-    lazy: true,
   },
 });
