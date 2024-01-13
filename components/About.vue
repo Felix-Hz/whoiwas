@@ -2,6 +2,7 @@
   <div
     class="component-container h-screen container flex items-center justify-center m-auto selection:h-screen"
   >
+  <div class="relative" :style="{ paddingTop: headerHeight + 'px' }">
     <div
       class="xs:gap-4 w-3/4 flex flex-col items-center justify-center lg:gap-1"
     >
@@ -60,3 +61,13 @@
   /* height: 100vh; */
 }
 </style>
+<script>
+export default {
+  props: {
+    headerHeight: {
+      type: Number,
+      default: 0,
+    },
+  },
+};
+</script>

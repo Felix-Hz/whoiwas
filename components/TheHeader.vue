@@ -1,8 +1,8 @@
 <template>
   <header
-    class="fixed top-0 left-0 right-0 z-50 flex justify-between items-center px-11 py-4 bg-opacity-50 bg-very-dark"
+    ref="header"
+    class="fixed top-0 left-0 right-0 z-10 flex justify-between items-center px-11 py-4 bg-opacity-50 bg-very-dark"
   >
-    <!-- bg-var(--very-dark) -->
     <div class="flex items-center bg-opacity-0 bg-very-dark">
       <span class="text-white text-5xl font-bold bg-transparent">
         <NuxtLink :to="{ hash: options[0].hash }" class="bg-transparent"
@@ -10,22 +10,8 @@
         /></NuxtLink>
       </span>
     </div>
-    <!-- <div class="flex items-center space-x-4">
-      <ul class="flex space-x-24">
-        <li v-for="option in options" :key="option.id">
-          NuxtLink can also take a link as an argument 
-          <NuxtLink
-            :to="{ hash: option.hash }"
-            class="text-white text-xl hover:text-purple-400"
-          >
-            {{ option.label }}
-          </NuxtLink>
-        </li>
-      </ul>
-    </div> -->
     <div class="flex items-center bg-opacity-0 bg-very-dark">
       <div class="flex items-center space-x-12 bg-transparent">
-        <!-- Add a wrapper div -->
         <a href="https://github.com/Felix-Hz" class="text-white bg-transparent">
           <Icon name="mdi:github-face" class="text-4xl bg-transparent" />
         </a>
@@ -75,6 +61,9 @@ export default {
       ],
       selectedLanguage: "🇬🇧",
     };
+  },
+  mounted() {
+    this.$emit("headerHeightChanged", this.$refs.header.offsetHeight);
   },
 
   methods: {
