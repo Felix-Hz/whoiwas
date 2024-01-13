@@ -2,7 +2,7 @@
 
 export default defineNuxtConfig({
   devtools: { enabled: false },
-  modules: ["nuxt-icon", "nuxt-particles"],
+  modules: ["nuxt-icon"],
   // Tailwind config
   css: ["~/assets/css/main.css"],
   postcss: {
@@ -10,9 +10,5 @@ export default defineNuxtConfig({
       tailwindcss: {},
       autoprefixer: {},
     },
-  },
-  particles: {
-    mode: "slim",
-    lazy: true,
   },
 });
