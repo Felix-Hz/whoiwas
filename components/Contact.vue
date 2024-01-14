@@ -6,14 +6,16 @@
       class="pt-4 px-4 mx-auto max-w-screen-md lg:pb-2 lg:pt-24 flex flex-col"
     >
       <div class="xs:pb-4 xs:mt-24 md:pt-24 lg:pt-8">
-        <h2 class="xs:text-3xl text-4xl text-white-900 p-0 mb-4 tracking-tight text-center">
+        <h2
+          class="xs:text-3xl text-4xl text-white-900 p-0 mb-4 tracking-tight text-center"
+        >
           Let's Chat <span class="wave-animation bg-transparent"> 👋</span>
         </h2>
         <p
-          class="xs:hidden mb-8 text-md lg:text-xl lg:mb-12 font-light text-center text-gray-500"
+          class="xs:hidden mb-8 lg:text-xl lg:mb-12 font-light text-center text-gray-500"
         >
           Whether you have me in mind for a job opportunity, have stumbled upon
-          a 🪲 or want to leave some feedback, <p class="inline xs:text-base xs:text-gray-500">I'm all ears.</p>
+          a 🪲 or want to leave some feedback, I'm all ears.
         </p>
       </div>
       <div class="mb-8 lg:mb-12">
