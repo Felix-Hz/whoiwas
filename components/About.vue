@@ -39,7 +39,7 @@
         <!-- Name -->
         <div class="flex justify-end md:p-12 p-6">
           <div
-            class="xs:mt-32 md:mt-52 text-center xs:text-3xl md:text-4xl lg:text-5xl font-extrabold"
+            class="xs:mt-32 md:mt-52 text-center xs:text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tighter"
           >
             Felix Hernandez Vieyra
           </div>
