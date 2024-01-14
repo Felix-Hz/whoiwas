@@ -19,7 +19,7 @@ export default {
     },
     extend: {
       animation: {
-        text: "text 5s ease infinite",
+        text: "text 1.5s ease infinite",
       },
       keyframes: {
         text: {

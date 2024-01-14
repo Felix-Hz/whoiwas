@@ -37,7 +37,6 @@
         class="xs:gap-4 w-3/4 flex flex-col items-center justify-center lg:gap-1"
       >
         <!-- Name -->
-        <!-- animate-text bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 bg-clip-text text-transparent font-black -->
         <div class="flex justify-end md:p-12 p-6">
           <div
             class="xs:mt-32 md:mt-52 text-center xs:text-3xl md:text-4xl lg:text-5xl font-extrabold"
@@ -50,38 +49,38 @@
         <div class="text-center xs:text-sm md:text-lg lg:text-xl mb-5">
           I'm a
           <p
-            class="inline xs:text-xl md:text-xl lg:text-2xl hover:text-light-gray transition duration-500"
+            class="inline xs:text-xl md:text-xl lg:text-2xl hover:animate-text hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition duration-500"
           >
             software developer
           </p>
           with a specialization in
           <p
-            class="inline xs:text-xl md:text-xl lg:text-2xl hover:text-light-gray transition duration-500"
+            class="inline xs:text-xl md:text-xl lg:text-2xl hover:text-light-gray hover:animate-text hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition duration-500"
           >
             cloud technologies.
           </p>
 
           My expertise lies in crafting
           <p
-            class="inline xs:text-xl md:text-xl lg:text-2xl hover:text-light-gray transition duration-500"
+            class="inline xs:text-xl md:text-xl lg:text-2xl hover:text-light-gray hover:animate-text hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition duration-500"
           >
             user-centered features
           </p>
           and writing code that not only performs at its best but is also easily
           interpretable. I have a keen interest in
           <p
-            class="inline xs:text-xl md:text-xl lg:text-2xl hover:text-light-gray transition duration-500"
+            class="inline xs:text-xl md:text-xl lg:text-2xl hover:text-light-gray hover:animate-text hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition duration-500"
           >
             web development,
           </p>
           <p
-            class="inline xs:text-xl md:text-xl lg:text-2xl hover:text-light-gray transition duration-500"
+            class="inline xs:text-xl md:text-xl lg:text-2xl hover:text-light-gray hover:animate-text hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition duration-500"
           >
             devOps,
           </p>
           and
           <p
-            class="inline xs:text-xl md:text-xl lg:text-2xl hover:text-light-gray transition duration-500"
+            class="inline xs:text-xl md:text-xl lg:text-2xl hover:text-light-gray hover:animate-text hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition duration-500"
           >
             infoSec.
           </p>
