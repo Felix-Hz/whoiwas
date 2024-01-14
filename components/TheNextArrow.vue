@@ -8,7 +8,7 @@
     >
       <Icon
         name="material-symbols:keyboard-double-arrow-down-rounded"
-        class="xs:text-4xl text-5xl xs:mt-14 mt-28 opacity-30 animate-floatUpDown"
+        class="xs:text-4xl text-5xl xs:mt-14 mt-20 opacity-30 animate-floatUpDown stop-animation-hover"
     /></NuxtLink>
   </div>
 </template>
@@ -38,5 +38,9 @@ export default {
 
 .animate-floatUpDown {
   animation: floatUpDown 4s infinite;
+}
+
+.stop-animation-hover:hover {
+  animation: none;
 }
 </style>

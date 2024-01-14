@@ -87,7 +87,9 @@
         </div>
 
         <!-- List of icons -->
-        <div class="flex justify-center space-x-10 lg:space-x-20 md:mt-8 lg:mt-4">
+        <div
+          class="flex justify-center space-x-10 lg:space-x-20 md:mt-8 lg:mt-4"
+        >
           <a href="https://linkedin.com">
             <Icon
               name="uil:linkedin"
@@ -114,7 +116,9 @@
           </a>
         </div>
 
-        <TheNextArrow class="xs:hidden md:inline lg:inline hover:scale-110 transition-transform duration-300" />
+        <TheNextArrow
+          class="xs:hidden md:inline lg:inline hover:scale-110 transition-transform duration-300"
+        />
       </div>
     </div>
   </div>
