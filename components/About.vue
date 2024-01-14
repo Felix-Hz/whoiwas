@@ -46,7 +46,7 @@
         </div>
 
         <!-- Description -->
-        <div class="text-center xs:text-sm md:text-lg lg:text-xl mb-5">
+        <div class="text-center xs:text-sm md:text-lg lg:text-xl lg:mt-2 mb-5">
           I'm a
           <p
             class="inline xs:text-xl md:text-xl lg:text-2xl hover:animate-text hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition duration-500"
@@ -87,33 +87,34 @@
         </div>
 
         <!-- List of icons -->
-        <div class="flex justify-center space-x-10 lg:space-x-20 md:mt-8">
+        <div class="flex justify-center space-x-10 lg:space-x-20 md:mt-8 lg:mt-4">
           <a href="https://linkedin.com">
             <Icon
               name="uil:linkedin"
-              class="xs:text-3xl text-2xl md:text-3xl lg:text-4xl"
+              class="xs:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-110 transition-transform duration-300"
             />
           </a>
           <a href="https://github.com">
             <Icon
               name="uil:github"
-              class="xs:text-3xl text-2xl md:text-3xl lg:text-4xl"
+              class="xs:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-110 transition-transform duration-300"
             />
           </a>
           <a href="mailto:felix.hzv@gmail.com">
             <Icon
               name="material-symbols:mail"
-              class="xs:text-3xl text-2xl md:text-3xl lg:text-4xl"
+              class="xs:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-110 transition-transform duration-300"
             />
           </a>
           <a href="/">
             <Icon
               name="academicons:cv-square"
-              class="xs:text-3xl text-2xl md:text-3xl lg:text-4xl"
+              class="xs:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-110 transition-transform duration-300"
             />
           </a>
         </div>
-        <TheNextArrow class="xs:hidden md:inline lg:inline" />
+
+        <TheNextArrow class="xs:hidden md:inline lg:inline hover:scale-110 transition-transform duration-300" />
       </div>
     </div>
   </div>
