@@ -70,7 +70,7 @@
           and writing code that not only performs at its best but is also easily
           interpretable. I have a keen interest in
           <p
-            class="inline xs:text-xl md:text-xl g:text-2xl hover:text-light-gray transition duration-500"
+            class="inline xs:text-xl md:text-xl lg:text-2xl hover:text-light-gray transition duration-500"
           >
             web development,
           </p>
