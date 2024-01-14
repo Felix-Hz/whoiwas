@@ -5,16 +5,16 @@
     :style="{ paddingTop: headerHeight + 'px' }"
   >
     <!-- Background Picture -->
-    <div class="bg-indigo-700/50 h-72" id="background-picture">
+    <div class="bg-indigo-700/50 h-72 blur-3xl" id="background-picture">
       <img src="/media/background.png" alt="Background" class="h-72 w-full" />
     </div>
 
     <!-- Avatar -->
     <div
-      class="absolute top-22 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-transparent"
+      class="absolute top-18 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-transparent"
     >
       <div
-        class="rounded-full overflow-hidden sm:h-40 sm:w-40 lg:h-60 lg:w-60 mb-6 shadow-2xl border-2 border-indigo-500/50"
+        class="rounded-full overflow-hidden sm:h-40 sm:w-40 lg:h-60 lg:w-60 mb-6 shadow-2xl border-2 border-indigo-200/25"
       >
         <img
           src="/media/avatar.jpeg"
@@ -26,24 +26,57 @@
   </div>
   <div>
     <div
-      class="class=component-container container flex justify-center items-start m-auto lg:mt-28 "
+      class="class=component-container container flex justify-center items-start m-auto lg:mt-28"
     >
       <div
         class="xs:gap-4 w-3/4 flex flex-col items-center justify-center lg:gap-1"
       >
         <!-- Name -->
+        <!-- animate-text bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 bg-clip-text text-transparent font-black -->
         <div class="flex justify-end p-6">
-          <div
-            class="xs:pt-1 text-center text-3xl lg:text-6xl animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black"
-          >
+          <div class="xs:pt-1 text-center text-2xl lg:text-5xl font-extrabold">
             Felix Hernandez Vieyra
           </div>
         </div>
 
         <!-- Description -->
-        <div class="xs:hidden text-center text-xl lg:text-2xl mb-5">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        <div class="xs:hidden text-center text-lg lg:text-xl mb-5">
+          I'm a
+          <p
+            class="inline text-2xl hover:text-light-gray transition duration-500"
+          >
+            software developer
+          </p>
+          with a specialization in
+          <p
+            class="inline text-2xl hover:text-light-gray transition duration-500"
+          >
+            cloud technologies.
+          </p>
+          My expertise lies in crafting
+          <p
+            class="inline text-2xl hover:text-light-gray transition duration-500"
+          >
+            user-centered features
+          </p>
+          and writing code that not only performs at its best but is also easily
+          interpretable. I have a keen interest in
+          <p
+            class="inline text-2xl hover:text-light-gray transition duration-500"
+          >
+            web development,
+          </p>
+          <p
+            class="inline text-2xl hover:text-light-gray transition duration-500"
+          >
+            devOps,
+          </p>
+          and
+          <p
+            class="inline text-2xl hover:text-light-gray transition duration-500"
+          >
+            infoSec.
+          </p>
         </div>
 
         <!-- List of icons -->

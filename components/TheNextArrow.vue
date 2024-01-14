@@ -4,7 +4,7 @@
       :to="{
         hash: pages[2].hash,
       }"
-      class="text-white text-xl hover:text-purple-400"
+      class="text-white text-xl"
     >
       <Icon
         name="material-symbols:keyboard-double-arrow-down-rounded"

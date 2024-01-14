@@ -6,13 +6,11 @@
       class="pt-4 px-4 mx-auto max-w-screen-md lg:pb-2 lg:pt-24 flex flex-col"
     >
       <div class="lg:pt-8">
-        <h2
-          class="text-5xl text-white-900 p-0 mb-4 tracking-tight font-extrabold text-center"
-        >
-          Let's Chat <span class="wave-animation"> 👋</span>
+        <h2 class="text-4xl text-white-900 p-0 mb-4 tracking-tight text-center">
+          Let's Chat <span class="wave-animation bg-transparent"> 👋</span>
         </h2>
         <p
-          class="mb-8 text-md lg:text-2xl lg:mb-8 font-light text-center text-gray-500"
+          class="mb-8 text-md lg:text-xl lg:mb-12 font-light text-center text-gray-500"
         >
           Whether you have me in mind for a job opportunity, have stumbled upon
           a 🪲 or want to leave some feedback, I'm all ears.
