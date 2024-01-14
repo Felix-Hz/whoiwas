@@ -37,9 +37,9 @@
         class="xs:gap-4 w-3/4 flex flex-col items-center justify-center lg:gap-1"
       >
         <!-- Name -->
-        <div class="flex justify-end md:p-12 p-6">
+        <div class="flex justify-end xs:p-2 md:p-12 p-6">
           <div
-            class="xs:mt-32 md:mt-52 text-center xs:text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tighter"
+            class="xs:mt-36 md:mt-52 text-center xs:text-4xl md:text-4xl lg:text-5xl font-extrabold tracking-tighter"
           >
             Felix Hernandez Vieyra
           </div>
