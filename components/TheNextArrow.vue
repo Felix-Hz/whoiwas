@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="md:p-12">
     <NuxtLink
       :to="{
         hash: pages[2].hash,

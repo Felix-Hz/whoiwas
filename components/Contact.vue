@@ -5,7 +5,7 @@
     <section
       class="pt-4 px-4 mx-auto max-w-screen-md lg:pb-2 lg:pt-24 flex flex-col"
     >
-      <div class="lg:pt-8">
+      <div class="md:pt-24 lg:pt-8">
         <h2 class="text-4xl text-white-900 p-0 mb-4 tracking-tight text-center">
           Let's Chat <span class="wave-animation bg-transparent"> 👋</span>
         </h2>
