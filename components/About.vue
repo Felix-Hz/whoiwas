@@ -117,7 +117,7 @@
         </div>
 
         <TheNextArrow
-          class="xs:hidden md:inline lg:inline hover:scale-110 transition-transform duration-300"
+          class="xs:hidden md:inline lg:inline hover:scale-150 transition-transform duration-300"
         />
       </div>
     </div>
