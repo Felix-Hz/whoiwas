@@ -8,7 +8,7 @@
     >
       <Icon
         name="material-symbols:keyboard-double-arrow-down-rounded"
-        class="text-5xl mt-40 opacity-30 animate-floatUpDown"
+        class="text-5xl mt-28 opacity-30 animate-floatUpDown"
     /></NuxtLink>
   </div>
 </template>

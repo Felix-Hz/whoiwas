@@ -1,13 +1,12 @@
 <template>
   <!-- Social Media Type Intro -->
-  <div class="relative" :style="{ paddingTop: headerHeight + 'px' }">
+  <div
+    class="relative xs:hidden sm:hidden"
+    :style="{ paddingTop: headerHeight + 'px' }"
+  >
     <!-- Background Picture -->
     <div class="bg-indigo-700/50 h-72" id="background-picture">
-      <img
-        src="/media/background.png"
-        alt="Background"
-        class="h-72 w-full"
-      />
+      <img src="/media/background.png" alt="Background" class="h-72 w-full" />
     </div>
 
     <!-- Avatar -->
@@ -27,7 +26,7 @@
   </div>
   <div>
     <div
-      class="component-container h-screen container flex justify-center m-auto selection:h-screen"
+      class="class=component-container container flex justify-center items-start m-auto lg:mt-28 "
     >
       <div
         class="xs:gap-4 w-3/4 flex flex-col items-center justify-center lg:gap-1"
@@ -35,14 +34,14 @@
         <!-- Name -->
         <div class="flex justify-end p-6">
           <div
-            class="xs:pt-1 text-center text-5xl lg:text-7xl animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black m-4"
+            class="xs:pt-1 text-center text-3xl lg:text-6xl animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black"
           >
             Felix Hernandez Vieyra
           </div>
         </div>
 
         <!-- Description -->
-        <div class="xs:hidden text-center text-2xl lg:text-3xl mb-6">
+        <div class="xs:hidden text-center text-xl lg:text-2xl mb-5">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </div>
@@ -50,19 +49,16 @@
         <!-- List of icons -->
         <div class="flex justify-center space-x-10 lg:space-x-20">
           <a href="https://linkedin.com">
-            <Icon name="uil:linkedin" class="text-4xl lg:text-5xl" />
+            <Icon name="uil:linkedin" class="text-2xl lg:text-4xl" />
           </a>
           <a href="https://github.com">
-            <Icon name="uil:github" class="text-4xl lg:text-5xl" />
+            <Icon name="uil:github" class="text-2xl lg:text-4xl" />
           </a>
           <a href="mailto:felix.hzv@gmail.com">
-            <Icon name="material-symbols:mail" class="text-4xl lg:text-5xl" />
+            <Icon name="material-symbols:mail" class="text-2xl lg:text-4xl" />
           </a>
           <a href="/">
-            <Icon name="academicons:cv-square" class="text-4xl" />
-          </a>
-          <a href="https://mastodon.social/@red_rogue" class="xs:hidden">
-            <Icon name="mdi:mastodon" class="text-4xl lg:text-5xl" />
+            <Icon name="academicons:cv-square" class="text-2xl lg:text-4xl" />
           </a>
         </div>
         <TheNextArrow class="hidden lg:inline" />
