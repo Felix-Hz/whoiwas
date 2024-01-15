@@ -15,7 +15,7 @@
           class="xs:hidden mb-8 lg:text-xl lg:mb-12 font-light text-center text-gray-500"
         >
           Whether you have me in mind for a job opportunity, have stumbled upon
-          a 🪲 or want to leave some feedback, I'm all ears.
+          a bug or want to leave some feedback, I'm all ears.
         </p>
       </div>
       <div class="mb-8 lg:mb-12">
