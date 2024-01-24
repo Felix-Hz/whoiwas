@@ -29,10 +29,10 @@
         completeTechStack="TypeScript,AWS,EC2,Tmux,Terminal,Linux"
       />
       <ProjectsCard
-        projectName="More coming soon..."
+        projectName="more-coming-soon"
         projectUrl="https://github.com/Felix-Hz"
-        projectDescription="I'm working on fixing the hosting for a few projects. Stay tuned for more updates on them!"
-        completeTechStack="Django,React,Vue,PostgreSQL,Node"
+        projectDescription="I'm working on fixing the hosting for a few projects, stay tuned!"
+        completeTechStack=""
       />
     </div>
   </main>
