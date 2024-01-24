@@ -20,6 +20,7 @@ export default {
     extend: {
       animation: {
         text: "text 1.5s ease infinite",
+        slide: "slide 120s linear infinite",
       },
       keyframes: {
         text: {
@@ -30,6 +31,14 @@ export default {
           "50%": {
             "background-size": "200% 200%",
             "background-position": "right center",
+          },
+        },
+        slide: {
+          from: {
+            transform: "translateX(0)",
+          },
+          to: {
+            transform: "translateX(-100%)",
           },
         },
       },
