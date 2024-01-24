@@ -1,5 +1,5 @@
 <template>
-  <main class="z-1 container mx-auto">
+  <main class="z-1 mt-10 container mx-auto">
     <!-- Add an about section  -->
     <div class="xs:pb-4 xs:mt-24 md:pt-24 lg:pt-8">
       <h2
@@ -15,25 +15,49 @@
       </p>
     </div>
 
-    <div class="flex flex-row space-x-16 p-5">
+    <!-- Render project cards dynamically -->
+    <div class="flex flex-row flex-wrap justify-center md:p-5 w-full">
       <ProjectsCard
-        projectName="whoami"
-        projectUrl="https://github.com/Felix-Hz/whoami"
-        projectDescription="My personal portfolio that has been crafted with a lot of love for you to get to know me better, and have a nice animated experience."
-        completeTechStack="Nuxt,JavaScript,Tailwind,Terminal,Linux"
-      />
-      <ProjectsCard
-        projectName="green-squares"
-        projectUrl="https://github.com/Felix-Hz/green-squares"
-        projectDescription="I wanted a shiny gh profile so I created this project that runs a daily cron job that gets a random fact and records it in markdown."
-        completeTechStack="TypeScript,AWS,EC2,Tmux,Terminal,Linux"
-      />
-      <ProjectsCard
-        projectName="more-coming-soon"
-        projectUrl="https://github.com/Felix-Hz"
-        projectDescription="I'm working on fixing the hosting for a few projects, stay tuned!"
-        completeTechStack=""
+        v-for="(project, index) in projects"
+        :key="index"
+        :projectName="project.projectName"
+        :projectUrl="project.projectUrl"
+        :projectDescription="project.projectDescription"
+        :completeTechStack="project.completeTechStack"
+        :class="'w-3/4 sm:w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 sm:p-0'"
+        u
       />
     </div>
   </main>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      projects: [
+        {
+          projectName: "whoami",
+          projectUrl: "https://github.com/Felix-Hz/whoami",
+          projectDescription:
+            "My personal portfolio that has been crafted with a lot of love for you to get to know me better, and have a nice animated experience.",
+          completeTechStack: "Nuxt,JavaScript,Tailwind,Terminal,Linux",
+        },
+        {
+          projectName: "green-squares",
+          projectUrl: "https://github.com/Felix-Hz/green-squares",
+          projectDescription:
+            "I wanted a shiny gh profile so I created this project that runs a daily cron job that gets a random fact and records it in markdown.",
+          completeTechStack: "TypeScript,AWS,EC2,Tmux,Linux",
+        },
+        {
+          projectName: "more-coming-soon",
+          projectUrl: "https://github.com/Felix-Hz",
+          projectDescription:
+            "I'm working on fixing the hosting for a few projects, stay tuned!",
+          completeTechStack: "",
+        },
+      ],
+    };
+  },
+};
+</script>

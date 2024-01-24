@@ -1,6 +1,7 @@
 <template>
-  <section class="h-screen">
-    <ProjectsToolkitContainer />
-    <ProjectsContainer />
-  </section>
+  <!-- class="h-screen" -->
+  <!-- <section> -->
+  <ProjectsToolkitContainer />
+  <ProjectsContainer />
+  <!-- </section> -->
 </template>

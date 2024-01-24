@@ -1,10 +1,10 @@
 <template>
   <a :href="projectUrl" target="_blank">
     <article
-      class="border group shadow-md hover:shadow-xl border-light-gray rounded-tr-lg relative overflow-hidden bg-dark-gray/10 hover:bg-dark-gray/30 p-8 bg-opacity-50 hover:bg-opacity-95 transition duration-300 ease-in-out max-w-xs"
+      class="border mx-auto group shadow-md hover:shadow-xl border-light-gray rounded-tr-lg relative overflow-hidden bg-dark-gray/10 hover:bg-dark-gray/30 p-8 bg-opacity-50 hover:bg-opacity-95 transition duration-300 ease-in-out max-w-xs"
     >
       <div
-        class="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-transparent"
+        class="absolute top-2 right-2 xs:opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-transparent"
       >
         <Icon
           name="material-symbols-light:arrow-outward-rounded"
@@ -18,7 +18,7 @@
           {{ projectDescription }}
         </section>
         <div
-          class="pt-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-transparent flex space-x-5"
+          class="pt-3 xs:opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-transparent flex space-x-5"
         >
           <!-- Icons based on the techStack prop -->
           <div
