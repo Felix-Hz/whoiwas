@@ -1,16 +1,17 @@
 <template>
-  <main class="h-screen z-1 mt-20 container mx-auto">
+  <main class="z-1 container mx-auto">
+    <!-- Add an about section  -->
     <div class="xs:pb-4 xs:mt-24 md:pt-24 lg:pt-8">
       <h2
         class="xs:text-3xl text-4xl text-white-900 p-0 mb-4 tracking-tight text-center"
       >
-        Project Gallery
+        The Gallery
       </h2>
       <p
         class="xs:hidden mb-8 lg:text-xl lg:mb-12 font-light text-center text-gray-500"
       >
-        I've been working on some cool pet projects that you can check out
-        below.
+        I've been diligently working on some pet projects that you can explore
+        right here.
       </p>
     </div>
 
