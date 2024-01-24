@@ -1,5 +1,5 @@
 <template>
-  <!-- Add a tech stack section  -->
+  <!-- Tech Stack Section  -->
   <div class="mt-20 xs:pb-4 xs:mt-24 md:pt-24 lg:pt-8">
     <h2
       class="xs:text-3xl text-4xl text-white-900 p-0 mb-4 tracking-tight text-center"

@@ -2,48 +2,38 @@
   <article
     class="border group shadow-md hover:shadow-xl border-light-gray rounded-tr-lg relative overflow-hidden bg-dark-gray/10 hover:bg-dark-gray/30 p-8 bg-opacity-50 hover:bg-opacity-95 transition duration-300 ease-in-out max-w-xs"
   >
-    <div
-      class="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-transparent"
-    >
-      <Icon
-        name="material-symbols-light:arrow-outward-rounded"
-        class="text-xl bg-transparent md:text-3xl lg:text-2xl transform group-hover:scale-110 transition-transform duration-300"
-      />
-    </div>
-
-    <div class="px-4 bg-transparent">
-      <p class="text-white text-2xl bg-transparent">{{ projectName }}</p>
-      <section class="text-gray-400 text-sm bg-transparent mt-2">
-        {{ projectDescription }}
-      </section>
-
-      <!-- Tech Stack of the project
+    <a :href="projectUrl" target="_blank">
       <div
-        class="pt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-transparent "
+        class="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-transparent"
       >
-        <div v-for="tech in techStackArray" :key="tech" class="inline bg-transparent px-2 py-2">
-          <Icon
-            :name="getIconName(tech)"
-            class="text-xl bg-transparent md:text-3xl lg:text-2xl transform group-hover:scale-110 transition-transform duration-300"
-          />
-        </div>
-      </div> -->
-      <div
-        class="pt-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-transparent flex space-x-5"
-      >
-        <!-- Display the icons based on the techStack prop -->
+        <Icon
+          name="material-symbols-light:arrow-outward-rounded"
+          class="text-xl bg-transparent md:text-3xl lg:text-2xl transform group-hover:scale-110 transition-transform duration-300"
+        />
+      </div>
+
+      <div class="px-4 bg-transparent">
+        <p class="text-white text-2xl bg-transparent">{{ projectName }}</p>
+        <section class="text-gray-400 text-sm bg-transparent mt-2">
+          {{ projectDescription }}
+        </section>
         <div
-          v-for="tech in techStackArray"
-          :key="tech"
-          class="inline bg-transparent"
+          class="pt-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-transparent flex space-x-5"
         >
-          <Icon
-            :name="getIconName(tech)"
-            class="text-xl bg-transparent md:text-3xl lg:text-2xl transform group-hover:scale-110 transition-transform duration-300"
-          />
+          <!-- Icons based on the techStack prop -->
+          <div
+            v-for="tech in techStackArray"
+            :key="tech"
+            class="inline bg-transparent"
+          >
+            <Icon
+              :name="getIconName(tech)"
+              class="text-xl bg-transparent md:text-3xl lg:text-2xl transform group-hover:scale-110 transition-transform duration-300"
+            />
+          </div>
         </div>
       </div>
-    </div>
+    </a>
   </article>
 </template>
 
