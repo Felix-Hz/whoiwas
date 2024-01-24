@@ -5,7 +5,7 @@
     <section
       class="pt-4 px-4 mx-auto max-w-screen-md lg:pb-2 lg:pt-24 flex flex-col"
     >
-      <div class="xs:pb-4 xs:mt-24 md:pt-24 lg:pt-8">
+      <div class="xs:pb-4 xs:mt-8 md:pt-24 lg:pt-8">
         <h2
           class="xs:text-3xl text-4xl text-white-900 p-0 mb-4 tracking-tight text-center"
         >

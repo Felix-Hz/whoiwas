@@ -1,7 +1,7 @@
 <template>
-  <main class="z-1 mt-10 container mx-auto">
+  <main class="z-1 mt-20 container mx-auto">
     <!-- Add an about section  -->
-    <div class="xs:pb-4 xs:mt-24 md:pt-24 lg:pt-8">
+    <div class="xs:mt-0 md:pt-24 lg:pt-8">
       <h2
         class="xs:text-3xl text-4xl text-white-900 p-0 mb-4 tracking-tight text-center"
       >

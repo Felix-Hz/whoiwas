@@ -1,4 +1,4 @@
 <template>
-  <ProjectsToolkitContainer />
   <ProjectsContainer />
+  <ProjectsToolkitContainer />
 </template>

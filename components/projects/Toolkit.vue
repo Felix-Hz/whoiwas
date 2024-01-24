@@ -1,18 +1,18 @@
 <template>
   <div
-    class="logos pt-4 pb-16 whitespace-nowrap relative overflow-hidden w-full"
+    class="logos pt-4 xs:pb-0 pb-16 whitespace-nowrap relative overflow-hidden w-full"
   >
-    <div class="logos-slide inline-block animate-slide bg-transparent">
+    <div class="logos-slide xs:mt-8 inline-block animate-slide bg-transparent">
       <!-- Icons  -->
       <div
         v-for="tech in techStackArray"
         :key="tech"
-        class="inline bg-transparent p-12 group"
+        class="inline bg-transparent xs:p-5 sm:p-7 md:p-9 p-12 group"
       >
         <a :href="getTechUrl(tech)" target="_blank">
           <Icon
             :name="getIconName(tech)"
-            class="text-6xl opacity-60 group-hover:opacity-95 bg-transparent md:text-6xl lg:text-9xl transform group-hover:scale-110 transition-transform duration-300"
+            class="text-6xl xs:text-9xl opacity-60 group-hover:opacity-95 bg-transparent md:text-6xl lg:text-9xl transform group-hover:scale-110 transition-transform duration-300"
           />
         </a>
       </div>
@@ -21,12 +21,12 @@
       <div
         v-for="tech in techStackArray"
         :key="tech"
-        class="inline bg-transparent p-12 group"
+        class="inline bg-transparent xs:p-5 p-12 group"
       >
         <a :href="getTechUrl(tech)" target="_blank">
           <Icon
             :name="getIconName(tech)"
-            class="text-6xl opacity-60 group-hover:opacity-95 bg-transparent md:text-6xl lg:text-9xl transform group-hover:scale-110 transition-transform duration-300"
+            class="text-6xl xs:text-9xl opacity-60 group-hover:opacity-95 bg-transparent md:text-6xl lg:text-9xl transform group-hover:scale-110 transition-transform duration-300"
           />
         </a>
       </div>
@@ -55,6 +55,14 @@
 .logos:after {
   background: linear-gradient(to right, rgba(255, 255, 255, 0), var(--dark));
   right: 0;
+}
+
+/* Small screens */
+@media (max-width: 640px) {
+  .logos:before,
+  .logos:after {
+    width: 150px; /* Adjust the size for extra small screens */
+  }
 }
 </style>
 <script>
