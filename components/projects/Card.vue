@@ -1,8 +1,8 @@
 <template>
-  <article
-    class="border group shadow-md hover:shadow-xl border-light-gray rounded-tr-lg relative overflow-hidden bg-dark-gray/10 hover:bg-dark-gray/30 p-8 bg-opacity-50 hover:bg-opacity-95 transition duration-300 ease-in-out max-w-xs"
-  >
-    <a :href="projectUrl" target="_blank">
+  <a :href="projectUrl" target="_blank">
+    <article
+      class="border group shadow-md hover:shadow-xl border-light-gray rounded-tr-lg relative overflow-hidden bg-dark-gray/10 hover:bg-dark-gray/30 p-8 bg-opacity-50 hover:bg-opacity-95 transition duration-300 ease-in-out max-w-xs"
+    >
       <div
         class="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-transparent"
       >
@@ -33,8 +33,8 @@
           </div>
         </div>
       </div>
-    </a>
-  </article>
+    </article>
+  </a>
 </template>
 
 <script>
