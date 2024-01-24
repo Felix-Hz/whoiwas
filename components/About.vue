@@ -90,25 +90,25 @@
         <div
           class="flex justify-center space-x-10 lg:space-x-20 md:mt-8 lg:mt-4"
         >
-          <a href="https://linkedin.com">
+          <a href="https://linkedin.com" target="_blank">
             <Icon
               name="uil:linkedin"
               class="xs:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-110 transition-transform duration-300"
             />
           </a>
-          <a href="https://github.com">
+          <a href="https://github.com" target="_blank">
             <Icon
               name="uil:github"
               class="xs:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-110 transition-transform duration-300"
             />
           </a>
-          <a href="mailto:felix.hzv@gmail.com">
+          <a href="mailto:felix.hzv@gmail.com" target="_blank">
             <Icon
               name="material-symbols:mail"
               class="xs:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-110 transition-transform duration-300"
             />
           </a>
-          <a href="/">
+          <a href="/" target="_blank">
             <Icon
               name="academicons:cv-square"
               class="xs:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-110 transition-transform duration-300"
