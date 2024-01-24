@@ -1,6 +1,7 @@
 <template>
   <TheHeader @headerHeightChanged="updateHeaderHeight" />
   <About :headerHeight="headerHeight" id="about" />
+  <Projects />
   <Contact id="contact" />
 </template>
 

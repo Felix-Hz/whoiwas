@@ -12,7 +12,7 @@
     </div>
     <div class="flex items-center bg-opacity-0 bg-very-dark">
       <div class="flex items-center space-x-12 bg-transparent">
-        <a href="https://github.com/Felix-Hz" class="text-white bg-transparent">
+        <a href="https://github.com/Felix-Hz" class="text-white bg-transparent" target="_blank"> 
           <Icon name="mdi:github-face" class="text-4xl bg-transparent" />
         </a>
         <div class="relative bg-transparent">
