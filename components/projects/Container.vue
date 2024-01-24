@@ -16,19 +16,16 @@
 
     <div class="flex flex-row space-x-16 p-5">
       <ProjectsCard
-        projectName="Dummy Project"
+        projectName="Dummy Project 1"
         projectUrl="https://google.com/"
-        projectDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        projectDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        completeTechStack="Linux,Python,JavaScript,Express"
       />
       <ProjectsCard
-        projectName="Dummy Project"
+        projectName="Dummy Project 2"
         projectUrl="https://google.com/"
-        projectDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-      />
-      <ProjectsCard
-        projectName="Dummy Project"
-        projectUrl="https://google.com/"
-        projectDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        projectDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        completeTechStack="Nuxt,Vue,JavaScript,AWS"
       />
     </div>
   </main>
