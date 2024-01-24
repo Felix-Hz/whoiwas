@@ -24,7 +24,7 @@
         :projectUrl="project.projectUrl"
         :projectDescription="project.projectDescription"
         :completeTechStack="project.completeTechStack"
-        :class="'w-3/4 sm:w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 sm:p-0'"
+        :class="'w-3/4 sm:w-1/2 sm:p-0 sm:scale-75 md:w-1/2 lg:w-1/3 xl:w-1/4 p-4'"
         u
       />
     </div>
