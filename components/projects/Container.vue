@@ -16,16 +16,22 @@
 
     <div class="flex flex-row space-x-16 p-5">
       <ProjectsCard
-        projectName="Dummy Project 1"
-        projectUrl="https://google.com/"
-        projectDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        completeTechStack="Linux,Python,JavaScript,Express"
+        projectName="whoami"
+        projectUrl="https://github.com/Felix-Hz/whoami"
+        projectDescription="My personal portfolio that has been crafted with a lot of love for you to get to know me better, and have a nice animated experience."
+        completeTechStack="Nuxt,JavaScript,Tailwind,Terminal,Linux"
       />
       <ProjectsCard
-        projectName="Dummy Project 2"
-        projectUrl="https://google.com/"
-        projectDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        completeTechStack="Nuxt,Vue,JavaScript,AWS"
+        projectName="green-squares"
+        projectUrl="https://github.com/Felix-Hz/green-squares"
+        projectDescription="I wanted a shiny gh profile so I created this project that runs a daily cron job that gets a random fact and records it in markdown."
+        completeTechStack="TypeScript,AWS,EC2,Tmux,Terminal,Linux"
+      />
+      <ProjectsCard
+        projectName="More coming soon..."
+        projectUrl="https://github.com/Felix-Hz"
+        projectDescription="I'm working on fixing the hosting for a few projects. Stay tuned for more updates on them."
+        completeTechStack="Django,React,Vue,PostgreSQL,Node"
       />
     </div>
   </main>

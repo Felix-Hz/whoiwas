@@ -17,11 +17,26 @@
         {{ projectDescription }}
       </section>
 
-      <!-- Tech Stack of the project -->
+      <!-- Tech Stack of the project
       <div
-        class="pt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-transparent"
+        class="pt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-transparent "
       >
-        <div v-for="tech in techStackArray" :key="tech">
+        <div v-for="tech in techStackArray" :key="tech" class="inline bg-transparent px-2 py-2">
+          <Icon
+            :name="getIconName(tech)"
+            class="text-xl bg-transparent md:text-3xl lg:text-2xl transform group-hover:scale-110 transition-transform duration-300"
+          />
+        </div>
+      </div> -->
+      <div
+        class="pt-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-transparent flex space-x-5"
+      >
+        <!-- Display the icons based on the techStack prop -->
+        <div
+          v-for="tech in techStackArray"
+          :key="tech"
+          class="inline bg-transparent"
+        >
           <Icon
             :name="getIconName(tech)"
             class="text-xl bg-transparent md:text-3xl lg:text-2xl transform group-hover:scale-110 transition-transform duration-300"
@@ -54,25 +69,27 @@ export default {
   },
   computed: {
     techStackArray() {
-      return this.completeTechStack.toLowerCase().split(",");
+      return this.completeTechStack.toLowerCase().replace(" ", "").split(",");
     },
   },
   methods: {
     getIconName(tech) {
       const iconMap = {
-        nuxt: "mdi:nuxt",
+        nuxt: "file-icons:nuxt",
         vue: "mdi:vuejs",
         python: "mdi:language-python",
         typescript: "mdi:language-typescript",
         javascript: "mdi:language-javascript",
         react: "mdi:react",
         node: "mdi:nodejs",
-        postgressql: "bxl:postgresql",
+        postgresql: "bxl:postgresql",
         sqlalchemy: "simple-icons:sqlalchemy",
         express: "simple-icons:express",
         mysql: "cib:mysql",
         django: "bxl:django",
         aws: "mdi:aws",
+        ec2: "simple-icons:amazonec2",
+        tmux: "codicon:terminal-tmux",
         linux: "codicon:terminal-linux",
         terminal: "bitcoin-icons:linux-terminal-filled",
         tailwind: "mdi:tailwind",
