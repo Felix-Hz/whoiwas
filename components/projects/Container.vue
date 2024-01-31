@@ -39,14 +39,21 @@ export default {
           projectName: "whoami",
           projectUrl: "https://github.com/Felix-Hz/whoami",
           projectDescription:
-            "My personal portfolio that has been crafted with a lot of love for you to get to know me better, and have a nice animated experience.",
+            "My personal portfolio that has been crafted with a lot of love for you to have an interactive and animated experience.",
           completeTechStack: "Nuxt,JavaScript,Tailwind,Terminal,Linux",
+        },
+        {
+          projectName: "auth-api",
+          projectUrl: "https://github.com/Felix-Hz/proto-auth",
+          projectDescription:
+            "The backend for a social media app that includes database modelling, authentication and user functionality.",
+          completeTechStack: "Django,Python,CockroachDB,PostgreSQL,Linux",
         },
         {
           projectName: "green-squares",
           projectUrl: "https://github.com/Felix-Hz/green-squares",
           projectDescription:
-            "I wanted a shiny gh profile so I created this project that runs a daily cron job that gets a random fact and records it in markdown.",
+            "This project features a daily cron job that retrieves a random fact and documents it down in markdown.",
           completeTechStack: "TypeScript,AWS,EC2,Tmux,Linux",
         },
         {
