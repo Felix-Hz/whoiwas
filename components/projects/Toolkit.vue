@@ -1,5 +1,5 @@
 <template>
-  <div class="logos whitespace-nowrap relative overflow-hidden w-full">
+  <div class="logos whitespace-nowrap relative w-full">
     <div
       class="logos-slide xs:mt-8 inline-block xs:animate-slide_xs animate-slide bg-transparent"
     >
@@ -17,7 +17,9 @@
         </a>
       </div>
     </div>
-    <div class="logos-slide inline-block animate-slide bg-transparent">
+    <div
+      class="logos-slide xs:mt-8 inline-block xs:animate-slide_xs animate-slide bg-transparent"
+    >
       <div
         v-for="tech in techStackArray"
         :key="tech"
