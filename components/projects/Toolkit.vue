@@ -1,7 +1,7 @@
 <template>
-  <div class="logos whitespace-nowrap relative w-full">
+  <div class="logos whitespace-nowrap relative overflow-x-clip w-full">
     <div
-      class="logos-slide xs:mt-8 inline-block xs:animate-slide_xs animate-slide bg-transparent"
+      class="logos-slide mt-8 inline-block xs:animate-slide_xs animate-slide bg-transparent"
     >
       <!-- Icons  -->
       <div
@@ -12,7 +12,7 @@
         <a :href="getTechUrl(tech)" target="_blank">
           <Icon
             :name="getIconName(tech)"
-            class="text-6xl xs:text-9xl opacity-60 group-hover:opacity-95 bg-transparent md:text-6xl lg:text-9xl transform group-hover:scale-110 transition-transform duration-300"
+            class="text-6xl xs:text-9xl opacity-60 group-hover:opacity-95 bg-transparent md:text-6xl lg:text-9xl transform group-hover:scale-125 transition-transform duration-300"
           />
         </a>
       </div>
@@ -28,7 +28,7 @@
         <a :href="getTechUrl(tech)" target="_blank">
           <Icon
             :name="getIconName(tech)"
-            class="text-6xl xs:text-9xl opacity-60 group-hover:opacity-95 bg-transparent md:text-6xl lg:text-9xl transform group-hover:scale-110 transition-transform duration-300"
+            class="text-6xl xs:text-9xl opacity-60 group-hover:opacity-95 bg-transparent md:text-6xl lg:text-9xl transform group-hover:scale-125 transition-transform duration-300"
           />
         </a>
       </div>
