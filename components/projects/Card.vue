@@ -72,6 +72,7 @@ export default {
         javascript: "mdi:language-javascript",
         react: "mdi:react",
         node: "mdi:nodejs",
+        docker: "ion:logo-docker",
         postgresql: "bxl:postgresql",
         sqlalchemy: "simple-icons:sqlalchemy",
         express: "simple-icons:express",
