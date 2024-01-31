@@ -72,7 +72,7 @@ export default {
         javascript: "mdi:language-javascript",
         react: "mdi:react",
         next: "akar-icons:nextjs-fill",
-        node: "mdi:nodejs",
+        node: "teenyicons:nodejs-solid",
         docker: "ion:logo-docker",
         postgresql: "bxl:postgresql",
         cockroachdb: "simple-icons:cockroachlabs",

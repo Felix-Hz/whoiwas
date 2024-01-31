@@ -105,7 +105,7 @@ export default {
         javascript: "mdi:language-javascript",
         next: "akar-icons:nextjs-fill",
         react: "mdi:react",
-        node: "mdi:nodejs",
+        node: "teenyicons:nodejs-solid",
         docker: "ion:logo-docker",
         postgresql: "bxl:postgresql",
         cockroachdb: "simple-icons:cockroachlabs",
