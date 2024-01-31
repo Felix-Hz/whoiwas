@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="logos pt-4 xs:pb-0 pb-16 whitespace-nowrap relative overflow-hidden w-full"
-  >
+  <div class="logos whitespace-nowrap relative overflow-hidden w-full">
     <div
       class="logos-slide xs:mt-8 inline-block xs:animate-slide_xs animate-slide bg-transparent"
     >
@@ -76,6 +74,7 @@ export default {
         "typescript",
         "javascript",
         "django",
+        "next",
         "react",
         "nuxt",
         "vue",
@@ -86,6 +85,7 @@ export default {
         "linux",
         "aws",
         "postgresql",
+        "cockroachdb",
         "mysql",
         "sqlalchemy",
         "terminal",
@@ -101,10 +101,12 @@ export default {
         python: "mdi:language-python",
         typescript: "mdi:language-typescript",
         javascript: "mdi:language-javascript",
+        next: "akar-icons:nextjs-fill",
         react: "mdi:react",
         node: "mdi:nodejs",
         docker: "ion:logo-docker",
         postgresql: "bxl:postgresql",
+        cockroachdb: "simple-icons:cockroachlabs",
         sqlalchemy: "simple-icons:sqlalchemy",
         express: "simple-icons:express",
         mysql: "cib:mysql",
@@ -125,10 +127,12 @@ export default {
         python: "https://www.python.org/",
         typescript: "https://www.typescriptlang.org/",
         javascript: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        next: "https://nextjs.org/",
         react: "https://react.dev/",
         node: "https://nodejs.org/en",
         docker: "https://www.docker.com/",
         postgresql: "https://www.postgresql.org/",
+        cockroachdb: "https://cockroachlabs.cloud/",
         sqlalchemy: "https://www.sqlalchemy.org/",
         express: "https://expressjs.com/",
         mysql: "https://www.mysql.com/",
