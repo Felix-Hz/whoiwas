@@ -110,7 +110,10 @@
               class="xs:text-3xl sm:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-110 transition-transform duration-300"
             />
           </a>
-          <a href="/" target="_blank">
+          <a
+            href="https://drive.google.com/file/d/10tQT0pdAzgmxO-kMlfNhZOzECXIe3eyL/view?usp=sharing"
+            target="_blank"
+          >
             <Icon
               name="academicons:cv-square"
               class="xs:text-3xl sm:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-110 transition-transform duration-300"
