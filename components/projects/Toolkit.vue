@@ -2,7 +2,9 @@
   <div
     class="logos pt-4 xs:pb-0 pb-16 whitespace-nowrap relative overflow-hidden w-full"
   >
-    <div class="logos-slide xs:mt-8 inline-block animate-slide bg-transparent">
+    <div
+      class="logos-slide xs:mt-8 inline-block xs:animate-slide_xs animate-slide bg-transparent"
+    >
       <!-- Icons  -->
       <div
         v-for="tech in techStackArray"
