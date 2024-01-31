@@ -1,10 +1,10 @@
 <template>
   <header
     ref="header"
-    class="fixed top-0 left-0 right-0 z-10 flex justify-between items-center px-11 py-4 bg-opacity-50 bg-very-dark"
+    class="fixed top-0 left-0 right-0 z-10 flex justify-between items-center xs:px-6 px-11 py-4 bg-opacity-50 bg-very-dark"
   >
     <div class="flex items-center bg-opacity-0 bg-very-dark">
-      <span class="text-white text-5xl font-bold bg-transparent">
+      <span class="text-white xs:text-4xl text-5xl font-bold bg-transparent">
         <NuxtLink :to="{ hash: options[0].hash }" class="bg-transparent"
           ><Icon name="ic:baseline-terminal" class="bg-transparent"
         /></NuxtLink>
@@ -12,14 +12,21 @@
     </div>
     <div class="flex items-center bg-opacity-0 bg-very-dark">
       <div class="flex items-center space-x-12 bg-transparent">
-        <a href="https://github.com/Felix-Hz" class="text-white bg-transparent" target="_blank"> 
-          <Icon name="mdi:github-face" class="text-4xl bg-transparent" />
+        <a
+          href="https://github.com/Felix-Hz"
+          class="text-white bg-transparent"
+          target="_blank"
+        >
+          <Icon
+            name="mdi:github-face"
+            class="xs:text-3xl text-4xl bg-transparent"
+          />
         </a>
         <div class="relative bg-transparent">
           <div class="cursor-pointer bg-transparent">
             <Icon
               name="ic:twotone-translate"
-              class="text-white text-4xl bg-transparent"
+              class="text-white xs:text-3xl text-4xl bg-transparent"
             />
             <span
               class="absolute top-0 right-0 bg-white rounded-full px-1 text-xs"
