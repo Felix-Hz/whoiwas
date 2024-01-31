@@ -8,7 +8,7 @@
       >
         <Icon
           name="material-symbols-light:arrow-outward-rounded"
-          class="text-xl bg-transparent md:text-3xl lg:text-2xl transform group-hover:scale-110 transition-transform duration-300"
+          class="text-xl bg-transparent md:text-3xl lg:text-2xl transform transition-transform duration-300"
         />
       </div>
 
@@ -28,7 +28,7 @@
           >
             <Icon
               :name="getIconName(tech)"
-              class="text-xl bg-transparent md:text-3xl lg:text-2xl transform group-hover:scale-110 transition-transform duration-300"
+              class="text-xl bg-transparent md:text-3xl lg:text-2xl transform transition-transform duration-300"
             />
           </div>
         </div>
