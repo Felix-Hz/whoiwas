@@ -95,19 +95,19 @@
           <a href="https://linkedin.com" target="_blank">
             <Icon
               name="uil:linkedin"
-              class="xs:text-3xl sm:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-110 transition-transform duration-300"
+              class="xs:text-3xl sm:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-125 transition-transform duration-300"
             />
           </a>
           <a href="https://github.com" target="_blank">
             <Icon
               name="uil:github"
-              class="xs:text-3xl sm:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-110 transition-transform duration-300"
+              class="xs:text-3xl sm:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-125 transition-transform duration-300"
             />
           </a>
           <a href="mailto:felix.hzv@gmail.com" target="_blank">
             <Icon
               name="material-symbols:mail"
-              class="xs:text-3xl sm:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-110 transition-transform duration-300"
+              class="xs:text-3xl sm:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-125 transition-transform duration-300"
             />
           </a>
           <a
@@ -116,7 +116,7 @@
           >
             <Icon
               name="academicons:cv-square"
-              class="xs:text-3xl sm:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-110 transition-transform duration-300"
+              class="xs:text-3xl sm:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-125 transition-transform duration-300"
             />
           </a>
         </div>
