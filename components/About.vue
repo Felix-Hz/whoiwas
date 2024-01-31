@@ -92,13 +92,16 @@
         <div
           class="flex justify-center space-x-10 sm:space-x-24 sm:mt-16 sm:mb-14 lg:space-x-20 md:mt-8 lg:mt-4"
         >
-          <a href="https://linkedin.com" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/felix-hernandez-vieyra/"
+            target="_blank"
+          >
             <Icon
               name="uil:linkedin"
               class="xs:text-3xl sm:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-125 transition-transform duration-300"
             />
           </a>
-          <a href="https://github.com" target="_blank">
+          <a href="https://github.com/Felix-Hz" target="_blank">
             <Icon
               name="uil:github"
               class="xs:text-3xl sm:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-125 transition-transform duration-300"
