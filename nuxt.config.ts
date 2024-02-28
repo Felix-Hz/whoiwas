@@ -3,13 +3,13 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: "Felix Hernandez Vieyra | whoami",
+      title: "Felix Hernandez Vieyra | Full-Stack Software Developer",
       meta: [
         {
           hid: "description",
           name: "description",
           content:
-            "Personal website of Felix Hernandez Vieyra, who is a Software Developer.",
+            "Personal website of Felix Hernandez Vieyra. He is a Full-Stack Software Developer that builds with frameworks as Nuxt.js, and Next.js. He's experienced in Python-based AWS microservices, and databases.",
         },
       ],
       charset: "utf-8",

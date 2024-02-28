@@ -21,7 +21,7 @@ export default {
       animation: {
         text: "text 1.5s ease infinite",
         slide: "slide 120s linear infinite",
-        slide_xs: "slide 80s linear infinite"
+        slide_xs: "slide 80s linear infinite",
       },
       keyframes: {
         text: {
