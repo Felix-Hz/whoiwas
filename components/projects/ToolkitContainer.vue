@@ -1,6 +1,6 @@
 <template>
   <!-- Tech Stack Section  -->
-  <div class="mt-20 xs:mt-10 xs:pb-4 md:pt-24 lg:pt-8 bg-transparent ">
+  <div class="mt-20 xs:mt-10 xs:pb-4 md:pt-24 lg:pt-8 bg-transparent">
     <h2
       class="xs:hidden text-4xl text-white-900 p-0 mb-4 tracking-tight text-center bg-transparent"
     >

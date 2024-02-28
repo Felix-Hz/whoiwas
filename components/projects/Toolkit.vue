@@ -3,13 +3,13 @@
     class="logos whitespace-nowrap relative overflow-x-clip w-full bg-transparent sm:my-20"
   >
     <div
-      class="logos-slide mt-8 inline-block xs:animate-slide_xs animate-slide bg-transparent "
+      class="logos-slide mt-8 inline-block xs:animate-slide_xs animate-slide bg-transparent"
     >
       <!-- Icons  -->
       <div
         v-for="tech in techStackArray"
         :key="tech"
-        class="inline bg-transparent xs:p-5 sm:p-7 md:p-9 p-12 group "
+        class="inline bg-transparent xs:p-5 sm:p-7 md:p-9 p-12 group"
       >
         <a :href="getTechUrl(tech)" target="_blank" class="bg-transparent">
           <Icon
@@ -25,7 +25,7 @@
       <div
         v-for="tech in techStackArray"
         :key="tech"
-        class="inline bg-transparent xs:p-5 p-12 group "
+        class="inline bg-transparent xs:p-5 p-12 group"
       >
         <a :href="getTechUrl(tech)" target="_blank" class="bg-transparent">
           <Icon
