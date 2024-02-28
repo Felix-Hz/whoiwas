@@ -1,11 +1,11 @@
 <!-- When a form is submitted, add the confetti. -->
 
 <template>
-  <div class="h-screen mx-auto w-5/6 container mt-4">
+  <div class="h-screen mx-auto w-5/6 container mt-4 bg-transparent">
     <section
-      class="pt-4 px-4 mx-auto max-w-screen-md lg:pb-2 lg:pt-24 flex flex-col"
+      class="pt-4 px-4 mx-auto max-w-screen-md lg:pb-2 lg:pt-24 flex flex-col bg-transparent"
     >
-      <div class="xs:pb-4 xs:mt-8 md:pt-24 lg:pt-8">
+      <div class="xs:pb-4 xs:mt-8 md:pt-24 lg:pt-8 bg-transparent">
         <h2
           class="xs:text-3xl text-4xl text-white-900 p-0 mb-4 tracking-tight text-center"
         >
@@ -18,18 +18,18 @@
           a bug or want to leave some feedback, I'm all ears.
         </p>
       </div>
-      <div class="mb-8 lg:mb-12">
+      <div class="mb-8 lg:mb-12 bg-transparent">
         <form
           action="https://formspree.io/f/xeqbnwlo"
           method="POST"
-          class="space-y-8 flex flex-col"
+          class="space-y-8 flex flex-col bg-transparent"
         >
-          <div>
+          <div class="bg-transparent">
             <!-- The _gotcha input is used as a honeypot for spam filtering  -->
             <input type="text" name="_gotcha" style="display: none" />
             <label
               for="email"
-              class="block mb-2 text-sm font-medium text-gray-300"
+              class="block mb-2 text-sm font-medium text-gray-300 bg-transparent"
               >Your email</label
             >
             <input
@@ -41,10 +41,10 @@
               required
             />
           </div>
-          <div>
+          <div class="bg-transparent">
             <label
               for="subject"
-              class="block mb-2 text-sm font-medium text-gray-300"
+              class="block mb-2 text-sm font-medium text-gray-300 bg-transparent"
               >Subject</label
             >
             <input
@@ -56,10 +56,10 @@
               required
             />
           </div>
-          <div class="sm:col-span-2">
+          <div class="sm:col-span-2 bg-transparent">
             <label
               for="message"
-              class="block mb-2 text-sm font-medium text-gray-300"
+              class="block mb-2 text-sm font-medium text-gray-300 bg-transparent"
               >Your message</label
             >
             <textarea
@@ -72,18 +72,18 @@
           </div>
           <button
             type="submit"
-            class="group relative py-3 px-5 text-sm font-medium text-center text-white rounded-lg border border-gray-300 transition-colors hover:bg-gray-500 lg:mb-4"
+            class="group relative bg-gray-700 mx-auto py-3 px-96 xs:px-16 sm:px-60 md:px-16 text-sm font-medium text-center text-white rounded-lg border border-gray-300 transition-colors hover:bg-gray-500 lg:mb-4"
           >
             Start the conversation
 
             <Icon
               name="ph:telegram-logo-thin"
-              class="group-hover:bg-gray-500 text-2xl transition-colors absolute right-5 top-1/2 -translate-y-1/2"
+              class="bg-transparent text-2xl transition-colors absolute right-5 top-1/2 -translate-y-1/2"
             />
           </button>
         </form>
       </div>
-      <div><TheFooter /></div>
+      <div class="bg-transparent"><TheFooter /></div>
     </section>
   </div>
 </template>

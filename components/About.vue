@@ -19,7 +19,7 @@
       class="absolute xs:mt-20 md:mt-36 top-42 sm:top-64 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-transparent"
     >
       <div
-        class="rounded-full overflow-hidden xs:w-32 sm:w-60 md:w-40 lg:w-60 mb-6 sm:shadow-xl shadow-2xl border-2 border-indigo-200/25"
+        class="rounded-full overflow-hidden xs:w-32 sm:w-60 md:w-40 lg:w-60 mb-6 sm:shadow-xl shadow-2xl border-2 border-indigo-200/25 bg-transparent"
       >
         <img
           src="/media/avatar.jpeg"
@@ -29,17 +29,17 @@
       </div>
     </div>
   </div>
-  <div>
+  <div class="bg-transparent">
     <div
-      class="class=component-container container flex justify-center items-start m-auto lg:mt-28"
+      class="class=component-container container flex justify-center items-start m-auto lg:mt-28 bg-transparent"
     >
       <div
-        class="xs:gap-4 w-3/4 flex flex-col items-center justify-center lg:gap-1"
+        class="xs:gap-4 w-3/4 flex flex-col items-center justify-center lg:gap-1 bg-transparent"
       >
         <!-- Name -->
-        <div class="flex justify-end xs:p-2 md:p-12 p-6">
+        <div class="flex justify-end xs:p-2 md:p-12 p-6 bg-transparent">
           <div
-            class="xs:mt-36 sm:mt-12 md:mt-52 text-center xs:text-4xl sm:text-6xl md:text-4xl lg:text-5xl font-extrabold tracking-tighter"
+            class="xs:mt-36 sm:mt-12 md:mt-52 text-center xs:text-4xl sm:text-6xl md:text-4xl lg:text-5xl font-extrabold tracking-tighter bg-transparent"
           >
             Felix Hernandez Vieyra
           </div>
@@ -90,7 +90,7 @@
 
         <!-- List of icons -->
         <div
-          class="flex justify-center space-x-10 sm:space-x-24 sm:mt-16 sm:mb-14 lg:space-x-20 md:mt-8 lg:mt-4"
+          class="flex justify-center space-x-10 sm:space-x-24 sm:mt-16 sm:mb-14 lg:space-x-20 md:mt-8 lg:mt-4 bg-transparent"
         >
           <a
             href="https://www.linkedin.com/in/felix-hernandez-vieyra/"

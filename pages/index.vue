@@ -1,8 +1,10 @@
 <template>
   <TheHeader @headerHeightChanged="updateHeaderHeight" />
-  <About :headerHeight="headerHeight" id="about" />
-  <Projects />
-  <Contact id="contact" />
+  <div class="custom-dot-background">
+    <About :headerHeight="headerHeight" id="about" />
+    <Projects />
+    <Contact id="contact" />
+  </div>
 </template>
 
 <script>

@@ -34,3 +34,8 @@ html {
 *::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
 }
+
+.custom-dot-background {
+  background-image: radial-gradient(var(--dark-gray) 0.8px, transparent 0);
+  background-size: 45px 45px;
+}

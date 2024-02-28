@@ -1,14 +1,14 @@
 <template>
-  <div class="md:p-12">
+  <div class="md:p-12 bg-transparent">
     <NuxtLink
       :to="{
         hash: pages[2].hash,
       }"
-      class="text-white text-xl"
+      class="text-white text-xl bg-transparent"
     >
       <Icon
         name="material-symbols:keyboard-double-arrow-down-rounded"
-        class="xs:text-4xl text-5xl xs:mt-14 mt-20 opacity-30 animate-floatUpDown stop-animation-hover"
+        class="xs:text-4xl text-5xl xs:mt-14 mt-20 opacity-70 bg-transparent animate-floatUpDown stop-animation-hover"
     /></NuxtLink>
   </div>
 </template>

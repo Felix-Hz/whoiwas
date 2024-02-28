@@ -1,8 +1,8 @@
 <template>
   <!-- Tech Stack Section  -->
-  <div class="mt-20 xs:mt-10 xs:pb-4 md:pt-24 lg:pt-8">
+  <div class="mt-20 xs:mt-10 xs:pb-4 md:pt-24 lg:pt-8 bg-transparent ">
     <h2
-      class="xs:hidden text-4xl text-white-900 p-0 mb-4 tracking-tight text-center"
+      class="xs:hidden text-4xl text-white-900 p-0 mb-4 tracking-tight text-center bg-transparent"
     >
       The Toolkit
     </h2>
@@ -12,7 +12,7 @@
       These are some technologies that I've employed recently for both
       professional projects, and personal endeavors.
     </p>
-    <div>
+    <div class="bg-transparent">
       <ProjectsToolkit />
     </div>
   </div>

@@ -1,15 +1,17 @@
 <template>
-  <div class="logos whitespace-nowrap relative overflow-x-clip w-full">
+  <div
+    class="logos whitespace-nowrap relative overflow-x-clip w-full bg-transparent sm:my-20"
+  >
     <div
-      class="logos-slide mt-8 inline-block xs:animate-slide_xs animate-slide bg-transparent"
+      class="logos-slide mt-8 inline-block xs:animate-slide_xs animate-slide bg-transparent "
     >
       <!-- Icons  -->
       <div
         v-for="tech in techStackArray"
         :key="tech"
-        class="inline bg-transparent xs:p-5 sm:p-7 md:p-9 p-12 group"
+        class="inline bg-transparent xs:p-5 sm:p-7 md:p-9 p-12 group "
       >
-        <a :href="getTechUrl(tech)" target="_blank">
+        <a :href="getTechUrl(tech)" target="_blank" class="bg-transparent">
           <Icon
             :name="getIconName(tech)"
             class="text-6xl xs:text-9xl opacity-60 group-hover:opacity-95 bg-transparent md:text-6xl lg:text-9xl transform group-hover:scale-125 transition-transform duration-300"
@@ -23,9 +25,9 @@
       <div
         v-for="tech in techStackArray"
         :key="tech"
-        class="inline bg-transparent xs:p-5 p-12 group"
+        class="inline bg-transparent xs:p-5 p-12 group "
       >
-        <a :href="getTechUrl(tech)" target="_blank">
+        <a :href="getTechUrl(tech)" target="_blank" class="bg-transparent">
           <Icon
             :name="getIconName(tech)"
             class="text-6xl xs:text-9xl opacity-60 group-hover:opacity-95 bg-transparent md:text-6xl lg:text-9xl transform group-hover:scale-125 transition-transform duration-300"
