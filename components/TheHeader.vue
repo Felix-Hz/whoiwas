@@ -6,7 +6,8 @@
     >
       <div class="flex items-center bg-opacity-0 bg-very-dark">
         <span class="text-white xs:text-4xl text-5xl font-bold bg-transparent">
-          <NuxtLink :to="{ hash: options[0].hash }" class="bg-transparent">
+          <!-- <NuxtLink :to="{ hash: options[0].hash }" class="bg-transparent"> -->
+          <NuxtLink to="/" class="bg-transparent">
             <Icon name="ic:baseline-terminal" class="bg-transparent" />
           </NuxtLink>
         </span>
