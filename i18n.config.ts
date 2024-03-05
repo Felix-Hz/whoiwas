@@ -27,11 +27,6 @@ export default defineI18nConfig(() => ({
       morecomingsoon_desc:
         "I'm working on fixing the hosting for a few projects, stay tuned!",
 
-      /* Toolkit */
-      title_3: "The Toolkit",
-      subtitle_toolkit:
-        "These are some technologies that I've employed recently for both professional projects, and personal endeavors.",
-
       /* Contact */
       title_2: "Let's Chat",
       form_email: "Your email",
@@ -45,6 +40,11 @@ export default defineI18nConfig(() => ({
         "I'd love to know more about it. Keystroke, keystroke, keystroke...",
       /* Footer */
       footer: "© 2024 - Made with ☕️ by Felix Hernandez Vieyra",
+
+      /* Toolkit */
+      title_3: "The Toolkit",
+      subtitle_toolkit:
+        "These are some technologies that I've employed recently for both professional projects, and personal endeavors.",
     },
 
     es: {
@@ -72,11 +72,6 @@ export default defineI18nConfig(() => ({
       morecomingsoon_desc:
         "Estoy trabajando para arreglar el hosting de algunos proyectos, ¡paciencia!",
 
-      /* Toolkit */
-      title_3: "El Toolkit",
-      subtitle_toolkit:
-        "Estas son algunas de las tecnologías que usé recientemente en proyectos tanto profesionales como personales.",
-
       /* Contact */
       title_2: "Charlemos",
       form_email: "Email",
@@ -88,6 +83,11 @@ export default defineI18nConfig(() => ({
       footer: "© 2024 - Hecho con ☕️ por Felix Hernandez Vieyra",
       contact_subtitle:
         "Ya sea que me tengas en mente para una oportunidad de trabajo, te hayas topado con un bug o quieras dejar algún comentario, soy todo oídos.",
+
+      /* Toolkit */
+      title_3: "El Toolkit",
+      subtitle_toolkit:
+        "Estas son algunas de las tecnologías que usé recientemente en proyectos tanto profesionales como personales.",
     },
   },
 }));
