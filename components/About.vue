@@ -3,7 +3,7 @@
   <div class="relative" :style="{ paddingTop: headerHeight + 'px' }">
     <!-- Background Picture -->
     <div
-      class="bg-indigo-700/50 xs:max-h-24 xs:mt-12 md:max-h-4 h-72 blur-3xl"
+      class="bg-indigo-700/50 xs:max-h-12 xs:mt-12 md:max-h-4 h-64 blur-3xl"
       id="background-picture"
     >
       <img

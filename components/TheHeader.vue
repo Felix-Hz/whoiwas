@@ -59,6 +59,25 @@
 
 <script setup>
 const { locale } = useI18n();
+import { onMounted, ref, onUnmounted } from "vue";
+
+const emit = defineEmits(["headerHeightChanged"]);
+const header = ref(null);
+
+const updateHeaderHeight = () => {
+  if (header.value) {
+    emit("headerHeightChanged", header.value.offsetHeight);
+  }
+};
+
+onMounted(() => {
+  updateHeaderHeight();
+  window.addEventListener("resize", updateHeaderHeight);
+});
+
+onUnmounted(() => {
+  window.removeEventListener("resize", updateHeaderHeight);
+});
 
 const options = ref([
   { id: 1, label: "About", link: "/about", hash: "#about" },
