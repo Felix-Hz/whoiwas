@@ -7,15 +7,16 @@
     >
       <div class="xs:pb-4 xs:mt-8 md:pt-24 lg:pt-8 bg-transparent">
         <h2
-          class="xs:text-3xl text-4xl text-white-900 p-0 mb-4 tracking-tight text-center"
+          class="xs:text-4xl text-4xl text-white-900 p-0 mb-4 tracking-tight text-center"
         >
-          Let's Chat <span class="wave-animation bg-transparent"> 👋</span>
+          {{ $t("title_2") }}
+          <span class="wave-animation bg-transparent"> 👋</span>
         </h2>
+
         <p
           class="xs:hidden mb-8 lg:text-xl lg:mb-12 font-light text-center text-gray-500"
         >
-          Whether you have me in mind for a job opportunity, have stumbled upon
-          a bug or want to leave some feedback, I'm all ears.
+          {{ $t("contact_subtitle") }}
         </p>
       </div>
       <div class="mb-8 lg:mb-12 bg-transparent">
@@ -30,7 +31,8 @@
             <label
               for="email"
               class="block mb-2 text-sm font-medium text-gray-300 bg-transparent"
-              >Your email</label
+            >
+              {{ $t("form_email") }}</label
             >
             <input
               type="email"
@@ -45,14 +47,14 @@
             <label
               for="subject"
               class="block mb-2 text-sm font-medium text-gray-300 bg-transparent"
-              >Subject</label
+              >{{ $t("form_subject") }}</label
             >
             <input
               type="text"
               id="subject"
               name="subject"
               class="border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:border-purple-500 focus:ring-purple-500 shadow-sm"
-              placeholder="What's all of this about?"
+              :placeholder="$t('form_placeholder_subject')"
               required
             />
           </div>
@@ -60,22 +62,21 @@
             <label
               for="message"
               class="block mb-2 text-sm font-medium text-gray-300 bg-transparent"
-              >Your message</label
-            >
+              >{{ $t("form_msg") }}
+            </label>
             <textarea
               id="message"
               name="message"
               rows="6"
               class="border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:border-purple-500 focus:ring-purple-500 shadow-sm"
-              placeholder="I'd love to know more about it. Keystroke, keystroke, keystroke..."
+              :placeholder="$t('form_placeholder_msg')"
             ></textarea>
           </div>
           <button
             type="submit"
             class="group relative bg-gray-700 mx-auto py-3 px-96 xs:px-16 sm:px-60 md:px-16 text-sm font-medium text-center text-white rounded-lg border border-gray-300 transition-colors hover:bg-gray-500 lg:mb-4"
           >
-            Start the conversation
-
+            {{ $t("form_submit") }}
             <Icon
               name="ph:telegram-logo-thin"
               class="bg-transparent text-2xl transition-colors absolute right-5 top-1/2 -translate-y-1/2"
