@@ -4,13 +4,12 @@
     <h2
       class="xs:hidden text-4xl text-white-900 p-0 mb-4 tracking-tight text-center bg-transparent"
     >
-      The Toolkit
+      {{ $t("title_3") }}
     </h2>
     <p
       class="xs:hidden mb-8 lg:text-xl lg:mb-12 font-light text-center text-gray-500"
     >
-      These are some technologies that I've employed recently for both
-      professional projects, and personal endeavors.
+      {{ $t("subtitle_toolkit") }}
     </p>
     <div class="bg-transparent">
       <ProjectsToolkit />

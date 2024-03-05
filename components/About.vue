@@ -1,5 +1,4 @@
 <template>
-  <!-- <div class="xs:h-screen"> -->
   <!-- Social Media Type Intro -->
   <div class="relative" :style="{ paddingTop: headerHeight + 'px' }">
     <!-- Background Picture -->
@@ -49,27 +48,25 @@
         <div
           class="text-center xs:hidden sm:text-lg md:text-lg lg:text-xl lg:mt-2 mb-5"
         >
-          I'm a
+          {{ $t("pt_1") }}
           <p
             class="inline sm:text-xl md:text-xl lg:text-2xl hover:animate-text hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition duration-500"
           >
             software developer
           </p>
-          with a specialization in
+          {{ $t("pt_2") }}
           <p
             class="inline sm:text-xl md:text-xl lg:text-2xl hover:text-light-gray hover:animate-text hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition duration-500"
           >
-            cloud technologies.
+            {{ $t("animated_1") }}.
           </p>
-
-          My expertise lies in crafting
+          {{ $t("pt_3") }}
           <p
             class="inline sm:text-xl md:text-xl lg:text-2xl hover:text-light-gray hover:animate-text hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition duration-500"
           >
-            user-centered features
+            {{ $t("animated_2") }}
           </p>
-          and writing code that not only performs at its best but is also easily
-          interpretable. I have a keen interest in
+          {{ $t("pt_4") }}
           <p
             class="inline sm:text-xl md:text-xl lg:text-2xl hover:text-light-gray hover:animate-text hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition duration-500"
           >
@@ -80,7 +77,7 @@
           >
             devOps,
           </p>
-          and
+          {{ $t("pt_5") }}
           <p
             class="inline xs:text-xl sm:text-xl md:text-xl lg:text-2xl hover:text-light-gray hover:animate-text hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition duration-500"
           >

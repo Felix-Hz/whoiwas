@@ -65,7 +65,7 @@
 @media (max-width: 640px) {
   .logos:before,
   .logos:after {
-    width: 100px; /* Adjust the size for extra small screens */
+    width: 100px; 
   }
 }
 </style>
