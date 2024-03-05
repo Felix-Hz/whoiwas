@@ -5,6 +5,15 @@ export default defineI18nConfig(() => ({
     en: {
       welcome: "Welcome",
 
+      /* About */
+      animated_1: "cloud technologies",
+      animated_2: "user-centered features",
+      pt_1: "I'm a",
+      pt_2: "with a specialization in",
+      pt_3: "My expertise lies in crafting",
+      pt_4: "and writing code that not only performs at its best but is also easily interpretable. I have a keen interest in",
+      pt_5: "and",
+
       /* Gallery */
       title_1: "The Gallery",
       subtitle_gallery:
@@ -37,8 +46,18 @@ export default defineI18nConfig(() => ({
       /* Footer */
       footer: "© 2024 - Made with ☕️ by Felix Hernandez Vieyra",
     },
+
     es: {
       welcome: "Bienvenido",
+
+      /* About */
+      animated_1: "tecnologías cloud",
+      animated_2: "features centradas en el usuario",
+      pt_1: "Soy un",
+      pt_2: "especializado en",
+      pt_3: "Mi énfasis está en crear",
+      pt_4: "y escribir código optimizado que también es fácil de interpretar. Tengo un gran interés en",
+      pt_5: "y",
 
       /* Gallery */
       title_1: "La Galería",
