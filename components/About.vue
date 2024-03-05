@@ -4,7 +4,7 @@
   <div class="relative" :style="{ paddingTop: headerHeight + 'px' }">
     <!-- Background Picture -->
     <div
-      class="bg-indigo-700/50 xs:max-h-4 md:max-h-4 h-72 blur-3xl"
+      class="bg-indigo-700/50 xs:max-h-24 md:max-h-4 h-72 blur-3xl"
       id="background-picture"
     >
       <img
@@ -39,7 +39,7 @@
         <!-- Name -->
         <div class="flex justify-end xs:p-2 md:p-12 p-6 bg-transparent">
           <div
-            class="xs:mt-36 sm:mt-12 md:mt-52 text-center xs:text-4xl sm:text-6xl md:text-4xl lg:text-5xl font-extrabold tracking-tighter bg-transparent"
+            class="xs:mt-40 xs:mb-6 sm:mt-12 md:mt-52 text-center xs:text-5xl sm:text-6xl md:text-4xl lg:text-5xl font-extrabold tracking-tighter bg-transparent"
           >
             Felix Hernandez Vieyra
           </div>
@@ -47,36 +47,36 @@
 
         <!-- Description -->
         <div
-          class="text-center xs:text-sm sm:text-lg md:text-lg lg:text-xl lg:mt-2 mb-5"
+          class="text-center xs:hidden sm:text-lg md:text-lg lg:text-xl lg:mt-2 mb-5"
         >
           I'm a
           <p
-            class="inline xs:text-xl sm:text-xl md:text-xl lg:text-2xl hover:animate-text hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition duration-500"
+            class="inline sm:text-xl md:text-xl lg:text-2xl hover:animate-text hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition duration-500"
           >
             software developer
           </p>
           with a specialization in
           <p
-            class="inline xs:text-xl sm:text-xl md:text-xl lg:text-2xl hover:text-light-gray hover:animate-text hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition duration-500"
+            class="inline sm:text-xl md:text-xl lg:text-2xl hover:text-light-gray hover:animate-text hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition duration-500"
           >
             cloud technologies.
           </p>
 
           My expertise lies in crafting
           <p
-            class="inline xs:text-xl sm:text-xl md:text-xl lg:text-2xl hover:text-light-gray hover:animate-text hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition duration-500"
+            class="inline sm:text-xl md:text-xl lg:text-2xl hover:text-light-gray hover:animate-text hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition duration-500"
           >
             user-centered features
           </p>
           and writing code that not only performs at its best but is also easily
           interpretable. I have a keen interest in
           <p
-            class="inline xs:text-xl sm:text-xl md:text-xl lg:text-2xl hover:text-light-gray hover:animate-text hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition duration-500"
+            class="inline sm:text-xl md:text-xl lg:text-2xl hover:text-light-gray hover:animate-text hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition duration-500"
           >
             web development,
           </p>
           <p
-            class="inline xs:text-xl sm:text-xl md:text-xl lg:text-2xl hover:text-light-gray hover:animate-text hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition duration-500"
+            class="inline sm:text-xl md:text-xl lg:text-2xl hover:text-light-gray hover:animate-text hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:bg-clip-text hover:text-transparent transition duration-500"
           >
             devOps,
           </p>
@@ -98,19 +98,19 @@
           >
             <Icon
               name="uil:linkedin"
-              class="xs:text-3xl sm:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-125 transition-transform duration-300"
+              class="xs:text-4xl sm:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-125 transition-transform duration-300"
             />
           </a>
           <a href="https://github.com/Felix-Hz" target="_blank">
             <Icon
               name="uil:github"
-              class="xs:text-3xl sm:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-125 transition-transform duration-300"
+              class="xs:text-4xl sm:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-125 transition-transform duration-300"
             />
           </a>
           <a href="mailto:felix.hzv@gmail.com" target="_blank">
             <Icon
               name="material-symbols:mail"
-              class="xs:text-3xl sm:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-125 transition-transform duration-300"
+              class="xs:text-4xl sm:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-125 transition-transform duration-300"
             />
           </a>
           <a
@@ -119,7 +119,7 @@
           >
             <Icon
               name="academicons:cv-square"
-              class="xs:text-3xl sm:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-125 transition-transform duration-300"
+              class="xs:text-4xl sm:text-3xl text-2xl md:text-3xl lg:text-4xl transform hover:scale-125 transition-transform duration-300"
             />
           </a>
         </div>

@@ -1,7 +1,7 @@
 <!-- When a form is submitted, add the confetti. -->
 
 <template>
-  <div class="h-screen mx-auto w-5/6 container mt-4 bg-transparent">
+  <div class="h-screen xs:h-fit mx-auto w-5/6 container mt-4 bg-transparent">
     <section
       class="pt-4 px-4 mx-auto max-w-screen-md lg:pb-2 lg:pt-24 flex flex-col bg-transparent"
     >

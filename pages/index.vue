@@ -1,6 +1,6 @@
 <template>
   <TheHeader @headerHeightChanged="updateHeaderHeight" />
-  <div class="custom-dot-background">
+  <div class="custom-dot-background m-4 p-1">
     <About :headerHeight="headerHeight" id="about" />
     <Projects />
     <Contact id="contact" />

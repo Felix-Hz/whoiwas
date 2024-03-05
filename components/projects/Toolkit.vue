@@ -54,18 +54,18 @@
 }
 .logos:before {
   background: linear-gradient(to left, rgba(255, 255, 255, 0), var(--dark));
-  left: 0;
+  left: -1px;
 }
 .logos:after {
   background: linear-gradient(to right, rgba(255, 255, 255, 0), var(--dark));
-  right: 0;
+  right: -1px;
 }
 
 /* Small screens */
 @media (max-width: 640px) {
   .logos:before,
   .logos:after {
-    width: 150px; /* Adjust the size for extra small screens */
+    width: 100px; /* Adjust the size for extra small screens */
   }
 }
 </style>
