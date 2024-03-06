@@ -1,6 +1,6 @@
 <template>
   <!-- Social Media Type Intro -->
-  <div class="relative" :style="{ paddingTop: headerHeight + 'px' }">
+  <div class="relative" :style="{ paddingTop: headerHeight + 'px' }" id="about">
     <!-- Background Picture -->
     <div
       class="bg-indigo-700/50 xs:max-h-12 xs:mt-12 md:max-h-4 h-64 blur-3xl"

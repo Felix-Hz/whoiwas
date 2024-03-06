@@ -1,5 +1,5 @@
 <template>
-  <main class="z-1 mt-20 container mx-auto bg-transparent">
+  <main class="z-1 mt-20 container mx-auto bg-transparent" id="projects">
     <!-- Add an about section  -->
     <div class="xs:mt-0 md:pt-24 lg:pt-8 bg-transparent">
       <h2
