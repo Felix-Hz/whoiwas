@@ -9,9 +9,9 @@
     <template v-if="loaded">
       <TheHeader @headerHeightChanged="updateHeaderHeight" />
       <section class="custom-dot-background m-4 p-1" ref="loadedPage">
-        <About :headerHeight="headerHeight" />
-        <Projects />
-        <Contact />
+        <About :headerHeight="headerHeight" id="about" />
+        <Projects id="contact" />
+        <Contact id="contact" />
       </section>
     </template>
   </div>
