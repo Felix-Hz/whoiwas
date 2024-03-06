@@ -45,6 +45,12 @@ export default {
         completeTechStack: "Nuxt,JavaScript,Tailwind,Terminal,Linux",
       },
       {
+        projectName: "ai-assistant",
+        projectUrl: "https://github.com/Felix-Hz/ai-chat",
+        projectKey: "aiasistant_desc",
+        completeTechStack: "Next,TypeScript,OpenAI,Tailwind,GSAP",
+      },
+      {
         projectName: "auth-api",
         projectUrl: "https://github.com/Felix-Hz/proto-auth",
         projectKey: "authapi_desc",

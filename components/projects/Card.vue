@@ -86,6 +86,8 @@ export default {
         linux: "codicon:terminal-linux",
         terminal: "bitcoin-icons:linux-terminal-filled",
         tailwind: "mdi:tailwind",
+        openai: "arcticons:openai-chatgpt",
+        gsap: "cib:greensock",
       };
       // If the icon doesn't exist, default to 404.
       return iconMap[tech] || "mdi:help-circle";
