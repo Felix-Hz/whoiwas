@@ -22,10 +22,12 @@ export default defineI18nConfig(() => ({
         "My personal portfolio that has been crafted with a lot of love for you to have an interactive and animated experience.",
       authapi_desc:
         "The backend for a social media app that includes database modelling, authentication and user functionality.",
+      aiasistant_desc:
+        "An Artificial Intelligence chatbot experience prototype integrated with OpenAI best large language models.",
       greensquares_desc:
-        "This project features a daily cron job that retrieves a random fact and documents it down in markdown.",
+        "A daily cron job that retrieves a random fact and documents it down in markdown.",
       morecomingsoon_desc:
-        "I'm working on fixing the hosting for a few projects, stay tuned!",
+        "I'm currently working on fixing the hosting for a few projects, stay tuned!",
 
       /* Contact */
       title_2: "Let's Chat",
@@ -67,10 +69,12 @@ export default defineI18nConfig(() => ({
         "Mi portfolio personal que fue hecho con mucho amor para que tengas una experiencia interactiva y animada.",
       authapi_desc:
         "El backend de una app de redes sociales que incluye modelado de base de datos, autenticación y funcionalidad de usuario.",
+      aiasistant_desc:
+        "Un prototipo de chatbot de Inteligencia Artificial integrado con los mejores modelos de lenguaje grandes de OpenAI.",
       greensquares_desc:
-        "Este proyecto tiene un trabajo cron diario que busca un dato al azar y lo documenta en markdown.",
+        "Tarea cron diaria que busca un dato numérico al azar de una API y lo documenta en markdown.",
       morecomingsoon_desc:
-        "Estoy trabajando para arreglar el hosting de algunos proyectos, ¡paciencia!",
+        "Actualmente estoy trabajando para arreglar el hosting de algunos proyectos, ¡paciencia!",
 
       /* Contact */
       title_2: "Charlemos",
