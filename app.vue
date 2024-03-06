@@ -8,10 +8,10 @@
 <script setup>
 useSeoMeta({
   title: "Felix Hernandez Vieyra | whoami",
-  ogTitle: "Felix Hernandez Vieyra | whoami",
+  ogTitle: "Felix Hernandez Vieyra - Software Developer Portfolio",
   description:
-    "Personal website of Felix Hernandez Vieyra, who is a Software Developer.",
+    "Welcome to the personal portfolio of Felix Hernandez Vieyra, a passionate Software Developer specializing in web and application development.",
   ogDescription:
-    "Personal website of Felix Hernandez Vieyra, who is a Software Developer.",
+    "Explore the projects, skills, and achievements of Felix Hernandez Vieyra, a Software Developer dedicated to crafting high-quality software solutions.",
 });
 </script>
