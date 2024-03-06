@@ -2,7 +2,7 @@
   <div>
     <header
       ref="header"
-      class="fixed top-0 left-0 right-0 z-10 flex justify-between items-center xs:px-6 px-11 py-4 bg-opacity-50 bg-very-dark backdrop-blur-sm"
+      class="fixed top-0 left-0 right-0 z-10 flex justify-between items-center xs:px-6 px-11 py-4 bg-opacity-50 bg-very-dark backdrop-blur-md"
     >
       <div class="flex items-center bg-opacity-0 bg-very-dark">
         <span class="text-white xs:text-4xl text-5xl font-bold bg-transparent">

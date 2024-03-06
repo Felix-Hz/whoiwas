@@ -10,7 +10,6 @@
           ></p>
           <h1
             class="absolute inset-0 z-1 flex items-center justify-center rounded-full tracking-tighter font-medium text-9xl xs:text-7xl animate-subtle"
-            :class="{ 'opacity-100': currentTextVisible }"
           >
             {{ texts[currentIndex] }}
           </h1>
@@ -42,7 +41,7 @@ export default {
           setTimeout(() => {
             this.currentTextVisible = false;
             this.currentIndex++;
-          }, 850);
+          }, 550);
         } else {
           clearInterval(intervalId);
           this.$emit("loading-is-over");
@@ -58,10 +57,6 @@ export default {
   background: linear-gradient(225deg, #ff3cac -15%, #784ba0 35%, #2b86c5 100%);
   opacity: 0;
   transition: opacity 2s ease-in-out;
-}
-
-.gradient-background.opacity-100 {
-  opacity: 1;
 }
 
 @keyframes subtle-animation {

@@ -1,20 +1,25 @@
 <template>
-  <ThePreloader
-    :class="loaded ? 'hidden' : ''"
-    @loading-is-over="loadingIsOver"
-  />
+  <div>
+    <ThePreloader
+      :class="loaded ? 'hidden' : ''"
+      @loading-is-over="loadingIsOver"
+      ref="preloader"
+    />
 
-  <section v-if="loaded">
-    <TheHeader @headerHeightChanged="updateHeaderHeight" />
-    <section class="custom-dot-background m-4 p-1">
-      <About :headerHeight="headerHeight" id="about" />
-      <Projects />
-      <Contact id="contact" />
-    </section>
-  </section>
+    <template v-if="loaded">
+      <TheHeader @headerHeightChanged="updateHeaderHeight" />
+      <section class="custom-dot-background m-4 p-1" ref="loadedPage">
+        <About :headerHeight="headerHeight" />
+        <Projects />
+        <Contact />
+      </section>
+    </template>
+  </div>
 </template>
 
 <script>
+import { gsap } from "gsap";
+
 export default {
   data() {
     return {
@@ -27,9 +32,27 @@ export default {
       this.headerHeight = height;
     },
     loadingIsOver() {
-      setTimeout(() => {
-        this.loaded = true;
-      }, 50);
+      this.loaded = true;
+      this.$nextTick(() => {
+        this.animatePageTransition();
+      });
+    },
+    animatePageTransition() {
+      const loadedPage = this.$refs.loadedPage;
+      const windowHeight = window.innerHeight;
+
+      gsap.fromTo(
+        loadedPage,
+        {
+          y: windowHeight,
+          opacity: 0,
+        },
+        {
+          y: 0,
+          opacity: 1,
+          duration: 1,
+        }
+      );
     },
   },
 };
