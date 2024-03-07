@@ -58,11 +58,9 @@
 </template>
 
 <script setup>
-const { locale } = useI18n();
-import { onMounted, ref, onUnmounted } from "vue";
-
-const emit = defineEmits(["headerHeightChanged"]);
 const header = ref(null);
+const { locale } = useI18n();
+const emit = defineEmits(["headerHeightChanged"]);
 
 const updateHeaderHeight = () => {
   if (header.value) {
@@ -71,8 +69,11 @@ const updateHeaderHeight = () => {
 };
 
 onMounted(() => {
-  updateHeaderHeight();
   window.addEventListener("resize", updateHeaderHeight);
+  // TODO: tech debt, I should use a nextTick but couldn't make it work.
+  setTimeout(() => {
+    updateHeaderHeight();
+  }, 10);
 });
 
 onUnmounted(() => {
