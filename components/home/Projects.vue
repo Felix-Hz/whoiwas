@@ -1,0 +1,4 @@
+<template>
+  <HomeProjectsContainer />
+  <HomeToolkitContainer />
+</template>

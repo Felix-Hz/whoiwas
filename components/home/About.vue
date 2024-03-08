@@ -121,7 +121,7 @@
           </a>
         </div>
 
-        <TheNextArrow
+        <HomeTheNextArrow
           class="xs:hidden sm:hidden md:inline lg:inline hover:scale-150 transition-transform duration-300 bg-transparent"
         />
       </div>

@@ -12,7 +12,7 @@
       {{ $t("subtitle_toolkit") }}
     </p>
     <div class="bg-transparent">
-      <ProjectsToolkit />
+      <HomeToolkitStack />
     </div>
   </div>
 </template>

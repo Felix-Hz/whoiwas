@@ -1,17 +1,17 @@
 <template>
   <div>
-    <ThePreloader
+    <SharedThePreloader
       :class="loaded ? 'hidden' : ''"
       @loading-is-over="loadingIsOver"
       ref="preloader"
     />
 
     <template v-if="loaded">
-      <TheHeader @headerHeightChanged="updateHeaderHeight" />
+      <SharedTheHeader @headerHeightChanged="updateHeaderHeight" />
       <section class="custom-dot-background m-4 p-1" ref="loadedPage">
-        <About :headerHeight="headerHeight" />
-        <Projects />
-        <Contact />
+        <HomeAbout :headerHeight="headerHeight" />
+        <HomeProjects />
+        <HomeContact />
       </section>
     </template>
   </div>

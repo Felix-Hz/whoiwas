@@ -84,7 +84,7 @@
           </button>
         </form>
       </div>
-      <div class="bg-transparent"><TheFooter /></div>
+      <div class="bg-transparent"><SharedTheFooter /></div>
     </section>
   </div>
 </template>

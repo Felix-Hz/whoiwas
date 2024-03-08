@@ -18,7 +18,7 @@
     <div
       class="flex flex-row flex-wrap justify-center md:p-5 w-full bg-transparent"
     >
-      <ProjectsCard
+      <HomeProjectsCard
         v-for="(project, index) in projects"
         :key="index"
         :projectName="project.projectName"
