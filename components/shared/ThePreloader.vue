@@ -2,15 +2,12 @@
   <div class="preloader flex items-center justify-center h-screen">
     <div class="text-center">
       <div v-if="currentIndex < texts.length" :key="currentIndex" ref="text">
-        <div
-          class="relative mx-auto p-4 w-[80vh] h-[80vh] xs:h-[50vh] xs:w-[50vh] max-w-400 max-h-400"
-        >
+        <div class="relative mx-auto p-4 w-[80vh] h-[80vh] xs:h-[50vh] xs:w-[50vh] max-w-400 max-h-400">
           <p
-            class="absolute inset-0 z-0 flex items-center justify-center gradient-background rounded-full tracking-tighter animate-subtle"
-          ></p>
+            class="absolute inset-0 z-0 flex items-center justify-center gradient-background rounded-full tracking-tighter animate-subtle">
+          </p>
           <h1
-            class="absolute inset-0 z-1 flex items-center justify-center rounded-full tracking-tighter font-medium text-9xl xs:text-7xl animate-subtle"
-          >
+            class="absolute inset-0 z-1 flex items-center justify-center rounded-full tracking-tighter font-medium text-9xl xs:text-7xl animate-subtle">
             {{ texts[currentIndex] }}
           </h1>
         </div>
@@ -23,7 +20,7 @@
 export default {
   data() {
     return {
-      texts: ["Welcome", "Bienvenido", "Welkom"],
+      texts: ["Welcome"],
       currentIndex: 0,
       currentTextVisible: false,
     };
@@ -41,7 +38,7 @@ export default {
           setTimeout(() => {
             this.currentTextVisible = false;
             this.currentIndex++;
-          }, 550);
+          }, 175);
         } else {
           clearInterval(intervalId);
           this.$emit("loading-is-over");
@@ -64,6 +61,7 @@ export default {
     transform: scale(0.8);
     opacity: 0;
   }
+
   to {
     transform: scale(1);
     opacity: 1;
@@ -71,6 +69,6 @@ export default {
 }
 
 .animate-subtle {
-  animation: subtle-animation 2s ease forwards;
+  animation: subtle-animation 1.5s ease forwards;
 }
 </style>
