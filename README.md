@@ -1,5 +1,3 @@
-# `whoami` is [my](https://www.linkedin.com/in/felix-hernandez-vieyra/) portfolio 💻
-
 My personal website uses the [Nuxt 3](https://nuxt.com/docs/getting-started/introduction) framework to leverage the best Vue directives, and the top-notch technology the framework has. The stack also includes Tailwind's utility classes, GSAP for animated transitions, i18n for internationalization and more. It's still a work in progress! 
 
 ## Setup
